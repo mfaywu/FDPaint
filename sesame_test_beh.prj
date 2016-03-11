@@ -1,0 +1,4 @@
+verilog work "ipcore_dir/pixel_map.v"
+verilog work "sesame.v"
+verilog work "sesame_test.v"
+verilog work "/opt/Xilinx/14.7/ISE_DS/ISE//verilog/src/glbl.v"

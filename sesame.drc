@@ -1,0 +1,19 @@
+Release 14.6 Drc P.68d (nt64)
+Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
+
+Thu Mar 10 16:13:33 2016
+
+drc -z sesame.ncd sesame.pcf
+
+WARNING:PhysDesignRules:372 - Gated clock. Clock net comboUD is sourced by a
+   combinatorial pin. This is not good design practice. Use the CE pin to
+   control the loading of data into the flip-flop.
+WARNING:PhysDesignRules:372 - Gated clock. Clock net clk_debounce is sourced by
+   a combinatorial pin. This is not good design practice. Use the CE pin to
+   control the loading of data into the flip-flop.
+WARNING:PhysDesignRules:2410 - This design is using one or more 9K Block RAMs
+   (RAMB8BWER).  9K Block RAM initialization data, both user defined and
+   default, may be incorrect and should not be used.  For more information,
+   please reference Xilinx Answer Record 39999.
+DRC detected 0 errors and 3 warnings.  Please see the previously displayed
+individual error or warning messages for more details.

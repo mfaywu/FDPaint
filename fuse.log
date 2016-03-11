@@ -1,0 +1,30 @@
+Running: /opt/Xilinx/14.7/ISE_DS/ISE/bin/lin64/unwrapped/fuse -intstyle ise -incremental -lib unisims_ver -lib unimacro_ver -lib xilinxcorelib_ver -lib secureip -o /media/sf_CSM152A/FDPaint/sesame_test_isim_beh.exe -prj /media/sf_CSM152A/FDPaint/sesame_test_beh.prj work.sesame_test work.glbl 
+ISim P.20131013 (signature 0xfbc00daa)
+Number of CPUs detected in this system: 4
+Turning on mult-threading, number of parallel sub-compilation jobs: 8 
+Determining compilation order of HDL files
+Analyzing Verilog file "/media/sf_CSM152A/FDPaint/ipcore_dir/pixel_map.v" into library work
+Analyzing Verilog file "/media/sf_CSM152A/FDPaint/sesame.v" into library work
+Analyzing Verilog file "/media/sf_CSM152A/FDPaint/sesame_test.v" into library work
+Analyzing Verilog file "/opt/Xilinx/14.7/ISE_DS/ISE//verilog/src/glbl.v" into library work
+Starting static elaboration
+WARNING:HDLCompiler:189 - "/media/sf_CSM152A/FDPaint/sesame.v" Line 124: Size mismatch in connection of port <wea>. Formal port size is 1-bit while actual signal size is 32-bit.
+WARNING:HDLCompiler:189 - "/media/sf_CSM152A/FDPaint/sesame.v" Line 126: Size mismatch in connection of port <dina>. Formal port size is 8-bit while actual signal size is 32-bit.
+Completed static elaboration
+Fuse Memory Usage: 95920 KB
+Fuse CPU Usage: 1140 ms
+Compiling module BLK_MEM_GEN_V7_3_output_stage(C_...
+Compiling module BLK_MEM_GEN_V7_3_softecc_output_...
+Compiling module BLK_MEM_GEN_V7_3_mem_module(C_CO...
+Compiling module BLK_MEM_GEN_V7_3(C_FAMILY="spart...
+Compiling module pixel_map
+Compiling module sesame
+Compiling module sesame_test
+Compiling module glbl
+Time Resolution for simulation is 1ps.
+Waiting for 1 sub-compilation(s) to finish...
+Compiled 8 Verilog Units
+Built simulation executable /media/sf_CSM152A/FDPaint/sesame_test_isim_beh.exe
+Fuse Memory Usage: 659452 KB
+Fuse CPU Usage: 1240 ms
+GCC CPU Usage: 1160 ms

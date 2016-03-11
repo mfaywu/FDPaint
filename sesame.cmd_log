@@ -1,0 +1,730 @@
+xst -intstyle ise -ifn "C:/Users/152/Documents/Fay_Daniel_152A/FDPaint/sesame.xst" -ofn "C:/Users/152/Documents/Fay_Daniel_152A/FDPaint/sesame.syr" 
+xst -intstyle ise -ifn "C:/Users/152/Documents/Fay_Daniel_152A/FDPaint/sesame.xst" -ofn "C:/Users/152/Documents/Fay_Daniel_152A/FDPaint/sesame.syr" 
+xst -intstyle ise -ifn "C:/Users/152/Documents/Fay_Daniel_152A/FDPaint/sesame.xst" -ofn "C:/Users/152/Documents/Fay_Daniel_152A/FDPaint/sesame.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc nexys3.ucf -p xc6slx16-csg324-2 sesame.ngc sesame.ngd  
+xst -intstyle ise -ifn "C:/Users/152/Documents/Fay_Daniel_152A/FDPaint/sesame.xst" -ofn "C:/Users/152/Documents/Fay_Daniel_152A/FDPaint/sesame.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc nexys3.ucf -p xc6slx16-csg324-2 sesame.ngc sesame.ngd  
+map -intstyle ise -p xc6slx16-csg324-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o sesame_map.ncd sesame.ngd sesame.pcf 
+par -w -intstyle ise -ol high -mt off sesame_map.ncd sesame.ncd sesame.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml sesame.twx sesame.ncd -o sesame.twr sesame.pcf -ucf nexys3.ucf 
+bitgen -intstyle ise -f sesame.ut sesame.ncd 
+xst -intstyle ise -ifn "C:/Users/152/Documents/Fay_Daniel_152A/FDPaint/sesame.xst" -ofn "C:/Users/152/Documents/Fay_Daniel_152A/FDPaint/sesame.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc nexys3.ucf -p xc6slx16-csg324-2 sesame.ngc sesame.ngd  
+xst -intstyle ise -ifn "C:/Users/152/Documents/Fay_Daniel_152A/FDPaint/sesame.xst" -ofn "C:/Users/152/Documents/Fay_Daniel_152A/FDPaint/sesame.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc nexys3.ucf -p xc6slx16-csg324-2 sesame.ngc sesame.ngd  
+map -intstyle ise -p xc6slx16-csg324-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o sesame_map.ncd sesame.ngd sesame.pcf 
+par -w -intstyle ise -ol high -mt off sesame_map.ncd sesame.ncd sesame.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml sesame.twx sesame.ncd -o sesame.twr sesame.pcf -ucf nexys3.ucf 
+bitgen -intstyle ise -f sesame.ut sesame.ncd 
+xst -intstyle ise -ifn "C:/Users/152/Documents/Fay_Daniel_152A/FDPaint/sesame.xst" -ofn "C:/Users/152/Documents/Fay_Daniel_152A/FDPaint/sesame.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc nexys3.ucf -p xc6slx16-csg324-2 sesame.ngc sesame.ngd  
+map -intstyle ise -p xc6slx16-csg324-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o sesame_map.ncd sesame.ngd sesame.pcf 
+par -w -intstyle ise -ol high -mt off sesame_map.ncd sesame.ncd sesame.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml sesame.twx sesame.ncd -o sesame.twr sesame.pcf -ucf nexys3.ucf 
+bitgen -intstyle ise -f sesame.ut sesame.ncd 
+xst -intstyle ise -ifn "C:/Users/152/Documents/Fay_Daniel_152A/FDPaint/sesame.xst" -ofn "C:/Users/152/Documents/Fay_Daniel_152A/FDPaint/sesame.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc nexys3.ucf -p xc6slx16-csg324-2 sesame.ngc sesame.ngd  
+map -intstyle ise -p xc6slx16-csg324-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o sesame_map.ncd sesame.ngd sesame.pcf 
+par -w -intstyle ise -ol high -mt off sesame_map.ncd sesame.ncd sesame.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml sesame.twx sesame.ncd -o sesame.twr sesame.pcf -ucf nexys3.ucf 
+bitgen -intstyle ise -f sesame.ut sesame.ncd 
+xst -intstyle ise -ifn "C:/Users/152/Documents/Fay_Daniel_152A/FDPaint/sesame.xst" -ofn "C:/Users/152/Documents/Fay_Daniel_152A/FDPaint/sesame.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc nexys3.ucf -p xc6slx16-csg324-2 sesame.ngc sesame.ngd  
+map -intstyle ise -p xc6slx16-csg324-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o sesame_map.ncd sesame.ngd sesame.pcf 
+par -w -intstyle ise -ol high -mt off sesame_map.ncd sesame.ncd sesame.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml sesame.twx sesame.ncd -o sesame.twr sesame.pcf -ucf nexys3.ucf 
+bitgen -intstyle ise -f sesame.ut sesame.ncd 
+xst -intstyle ise -ifn "C:/Users/152/Documents/Fay_Daniel_152A/FDPaint/sesame.xst" -ofn "C:/Users/152/Documents/Fay_Daniel_152A/FDPaint/sesame.syr" 
+xst -intstyle ise -ifn "C:/Users/152/Documents/Fay_Daniel_152A/FDPaint/sesame.xst" -ofn "C:/Users/152/Documents/Fay_Daniel_152A/FDPaint/sesame.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc nexys3.ucf -p xc6slx16-csg324-2 sesame.ngc sesame.ngd  
+map -intstyle ise -p xc6slx16-csg324-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o sesame_map.ncd sesame.ngd sesame.pcf 
+par -w -intstyle ise -ol high -mt off sesame_map.ncd sesame.ncd sesame.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml sesame.twx sesame.ncd -o sesame.twr sesame.pcf -ucf nexys3.ucf 
+bitgen -intstyle ise -f sesame.ut sesame.ncd 
+xst -intstyle ise -ifn "C:/Users/152/Documents/Fay_Daniel_152A/FDPaint/sesame.xst" -ofn "C:/Users/152/Documents/Fay_Daniel_152A/FDPaint/sesame.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc nexys3.ucf -p xc6slx16-csg324-2 sesame.ngc sesame.ngd  
+map -intstyle ise -p xc6slx16-csg324-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o sesame_map.ncd sesame.ngd sesame.pcf 
+par -w -intstyle ise -ol high -mt off sesame_map.ncd sesame.ncd sesame.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml sesame.twx sesame.ncd -o sesame.twr sesame.pcf -ucf nexys3.ucf 
+bitgen -intstyle ise -f sesame.ut sesame.ncd 
+xst -intstyle ise -ifn "C:/Users/152/Documents/Fay_Daniel_152A/FDPaint/sesame.xst" -ofn "C:/Users/152/Documents/Fay_Daniel_152A/FDPaint/sesame.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc nexys3.ucf -p xc6slx16-csg324-2 sesame.ngc sesame.ngd  
+map -intstyle ise -p xc6slx16-csg324-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o sesame_map.ncd sesame.ngd sesame.pcf 
+par -w -intstyle ise -ol high -mt off sesame_map.ncd sesame.ncd sesame.pcf 
+bitgen -intstyle ise -f sesame.ut sesame.ncd 
+xst -intstyle ise -ifn "C:/Users/152/Documents/Fay_Daniel_152A/FDPaint/sesame.xst" -ofn "C:/Users/152/Documents/Fay_Daniel_152A/FDPaint/sesame.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc nexys3.ucf -p xc6slx16-csg324-2 sesame.ngc sesame.ngd  
+map -intstyle ise -p xc6slx16-csg324-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o sesame_map.ncd sesame.ngd sesame.pcf 
+par -w -intstyle ise -ol high -mt off sesame_map.ncd sesame.ncd sesame.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml sesame.twx sesame.ncd -o sesame.twr sesame.pcf -ucf nexys3.ucf 
+bitgen -intstyle ise -f sesame.ut sesame.ncd 
+xst -intstyle ise -ifn "C:/Users/152/Documents/Fay_Daniel_152A/FDPaint/sesame.xst" -ofn "C:/Users/152/Documents/Fay_Daniel_152A/FDPaint/sesame.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc nexys3.ucf -p xc6slx16-csg324-2 sesame.ngc sesame.ngd  
+map -intstyle ise -p xc6slx16-csg324-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o sesame_map.ncd sesame.ngd sesame.pcf 
+par -w -intstyle ise -ol high -mt off sesame_map.ncd sesame.ncd sesame.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml sesame.twx sesame.ncd -o sesame.twr sesame.pcf -ucf nexys3.ucf 
+bitgen -intstyle ise -f sesame.ut sesame.ncd 
+xst -intstyle ise -ifn "C:/Users/152/Documents/Fay_Daniel_152A/FDPaint/sesame.xst" -ofn "C:/Users/152/Documents/Fay_Daniel_152A/FDPaint/sesame.syr" 
+xst -intstyle ise -ifn "C:/Users/152/Documents/Fay_Daniel_152A/FDPaint/sesame.xst" -ofn "C:/Users/152/Documents/Fay_Daniel_152A/FDPaint/sesame.syr" 
+xst -intstyle ise -ifn "C:/Users/152/Documents/Fay_Daniel_152A/FDPaint/sesame.xst" -ofn "C:/Users/152/Documents/Fay_Daniel_152A/FDPaint/sesame.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc nexys3.ucf -p xc6slx16-csg324-2 sesame.ngc sesame.ngd  
+map -intstyle ise -p xc6slx16-csg324-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o sesame_map.ncd sesame.ngd sesame.pcf 
+par -w -intstyle ise -ol high -mt off sesame_map.ncd sesame.ncd sesame.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml sesame.twx sesame.ncd -o sesame.twr sesame.pcf -ucf nexys3.ucf 
+bitgen -intstyle ise -f sesame.ut sesame.ncd 
+xst -intstyle ise -ifn "C:/Users/152/Documents/Fay_Daniel_152A/FDPaint/sesame.xst" -ofn "C:/Users/152/Documents/Fay_Daniel_152A/FDPaint/sesame.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc nexys3.ucf -p xc6slx16-csg324-2 sesame.ngc sesame.ngd  
+map -intstyle ise -p xc6slx16-csg324-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o sesame_map.ncd sesame.ngd sesame.pcf 
+par -w -intstyle ise -ol high -mt off sesame_map.ncd sesame.ncd sesame.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml sesame.twx sesame.ncd -o sesame.twr sesame.pcf -ucf nexys3.ucf 
+bitgen -intstyle ise -f sesame.ut sesame.ncd 
+xst -intstyle ise -ifn "C:/Users/152/Documents/Fay_Daniel_152A/FDPaint/sesame.xst" -ofn "C:/Users/152/Documents/Fay_Daniel_152A/FDPaint/sesame.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc nexys3.ucf -p xc6slx16-csg324-2 sesame.ngc sesame.ngd  
+map -intstyle ise -p xc6slx16-csg324-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o sesame_map.ncd sesame.ngd sesame.pcf 
+par -w -intstyle ise -ol high -mt off sesame_map.ncd sesame.ncd sesame.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml sesame.twx sesame.ncd -o sesame.twr sesame.pcf -ucf nexys3.ucf 
+bitgen -intstyle ise -f sesame.ut sesame.ncd 
+xst -intstyle ise -ifn "/media/sf_CSM152A/FDPaint/sesame.xst" -ofn "/media/sf_CSM152A/FDPaint/sesame.syr" 
+xst -intstyle ise -ifn "/media/sf_CSM152A/FDPaint/sesame.xst" -ofn "/media/sf_CSM152A/FDPaint/sesame.syr" 
+xst -intstyle ise -ifn "/media/sf_CSM152A/FDPaint/sesame.xst" -ofn "/media/sf_CSM152A/FDPaint/sesame.syr" 
+xst -intstyle ise -ifn "/media/sf_CSM152A/FDPaint/sesame.xst" -ofn "/media/sf_CSM152A/FDPaint/sesame.syr" 
+xst -intstyle ise -ifn "/media/sf_CSM152A/FDPaint/sesame.xst" -ofn "/media/sf_CSM152A/FDPaint/sesame.syr" 
+xst -intstyle ise -ifn "/media/sf_CSM152A/FDPaint/sesame.xst" -ofn "/media/sf_CSM152A/FDPaint/sesame.syr" 
+xst -intstyle ise -ifn "/media/sf_CSM152A/FDPaint/sesame.xst" -ofn "/media/sf_CSM152A/FDPaint/sesame.syr" 
+xst -intstyle ise -ifn "/media/sf_CSM152A/FDPaint/sesame.xst" -ofn "/media/sf_CSM152A/FDPaint/sesame.syr" 
+xst -intstyle ise -ifn "/media/sf_CSM152A/FDPaint/sesame.xst" -ofn "/media/sf_CSM152A/FDPaint/sesame.syr" 
+xst -intstyle ise -ifn "/media/sf_CSM152A/FDPaint/sesame.xst" -ofn "/media/sf_CSM152A/FDPaint/sesame.syr" 
+xst -intstyle ise -ifn "/media/sf_CSM152A/FDPaint/sesame.xst" -ofn "/media/sf_CSM152A/FDPaint/sesame.syr" 
+xst -intstyle ise -ifn "/media/sf_CSM152A/FDPaint/sesame.xst" -ofn "/media/sf_CSM152A/FDPaint/sesame.syr" 
+xst -intstyle ise -ifn "/media/sf_CSM152A/FDPaint/sesame.xst" -ofn "/media/sf_CSM152A/FDPaint/sesame.syr" 
+xst -intstyle ise -ifn "/media/sf_CSM152A/FDPaint/sesame.xst" -ofn "/media/sf_CSM152A/FDPaint/sesame.syr" 
+xst -intstyle ise -ifn "/media/sf_CSM152A/FDPaint/sesame.xst" -ofn "/media/sf_CSM152A/FDPaint/sesame.syr" 
+xst -intstyle ise -ifn "/media/sf_CSM152A/FDPaint/sesame.xst" -ofn "/media/sf_CSM152A/FDPaint/sesame.syr" 
+xst -intstyle ise -ifn "/media/sf_CSM152A/FDPaint/sesame.xst" -ofn "/media/sf_CSM152A/FDPaint/sesame.syr" 
+xst -intstyle ise -ifn "/media/sf_CSM152A/FDPaint/sesame.xst" -ofn "/media/sf_CSM152A/FDPaint/sesame.syr" 
+xst -intstyle ise -ifn "/media/sf_CSM152A/FDPaint/sesame.xst" -ofn "/media/sf_CSM152A/FDPaint/sesame.syr" 
+xst -intstyle ise -ifn "/media/sf_CSM152A/FDPaint/sesame.xst" -ofn "/media/sf_CSM152A/FDPaint/sesame.syr" 
+xst -intstyle ise -ifn "/media/sf_CSM152A/FDPaint/sesame.xst" -ofn "/media/sf_CSM152A/FDPaint/sesame.syr" 
+xst -intstyle ise -ifn "/media/sf_CSM152A/FDPaint/sesame.xst" -ofn "/media/sf_CSM152A/FDPaint/sesame.syr" 
+xst -intstyle ise -ifn "/media/sf_CSM152A/FDPaint/sesame.xst" -ofn "/media/sf_CSM152A/FDPaint/sesame.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc nexys3.ucf -p xc6slx16-csg324-2 sesame.ngc sesame.ngd  
+map -intstyle ise -p xc6slx16-csg324-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o sesame_map.ncd sesame.ngd sesame.pcf 
+par -w -intstyle ise -ol high -mt off sesame_map.ncd sesame.ncd sesame.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml sesame.twx sesame.ncd -o sesame.twr sesame.pcf -ucf nexys3.ucf 
+bitgen -intstyle ise -f sesame.ut sesame.ncd 
+xst -intstyle ise -ifn "C:/Users/152/Documents/Fay_Daniel_152A/FDPaint/sesame.xst" -ofn "C:/Users/152/Documents/Fay_Daniel_152A/FDPaint/sesame.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc nexys3.ucf -p xc6slx16-csg324-2 sesame.ngc sesame.ngd  
+map -intstyle ise -p xc6slx16-csg324-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o sesame_map.ncd sesame.ngd sesame.pcf 
+par -w -intstyle ise -ol high -mt off sesame_map.ncd sesame.ncd sesame.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml sesame.twx sesame.ncd -o sesame.twr sesame.pcf -ucf nexys3.ucf 
+bitgen -intstyle ise -f sesame.ut sesame.ncd 
+xst -intstyle ise -ifn "C:/Users/152/Documents/Fay_Daniel_152A/FDPaint/sesame.xst" -ofn "C:/Users/152/Documents/Fay_Daniel_152A/FDPaint/sesame.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc nexys3.ucf -p xc6slx16-csg324-2 sesame.ngc sesame.ngd  
+map -intstyle ise -p xc6slx16-csg324-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o sesame_map.ncd sesame.ngd sesame.pcf 
+par -w -intstyle ise -ol high -mt off sesame_map.ncd sesame.ncd sesame.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml sesame.twx sesame.ncd -o sesame.twr sesame.pcf -ucf nexys3.ucf 
+bitgen -intstyle ise -f sesame.ut sesame.ncd 
+xst -intstyle ise -ifn "C:/Users/152/Documents/Fay_Daniel_152A/FDPaint/sesame.xst" -ofn "C:/Users/152/Documents/Fay_Daniel_152A/FDPaint/sesame.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc nexys3.ucf -p xc6slx16-csg324-2 sesame.ngc sesame.ngd  
+map -intstyle ise -p xc6slx16-csg324-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o sesame_map.ncd sesame.ngd sesame.pcf 
+par -w -intstyle ise -ol high -mt off sesame_map.ncd sesame.ncd sesame.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml sesame.twx sesame.ncd -o sesame.twr sesame.pcf -ucf nexys3.ucf 
+bitgen -intstyle ise -f sesame.ut sesame.ncd 
+xst -intstyle ise -ifn "C:/Users/152/Documents/Fay_Daniel_152A/FDPaint/sesame.xst" -ofn "C:/Users/152/Documents/Fay_Daniel_152A/FDPaint/sesame.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc nexys3.ucf -p xc6slx16-csg324-2 sesame.ngc sesame.ngd  
+map -intstyle ise -p xc6slx16-csg324-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o sesame_map.ncd sesame.ngd sesame.pcf 
+par -w -intstyle ise -ol high -mt off sesame_map.ncd sesame.ncd sesame.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml sesame.twx sesame.ncd -o sesame.twr sesame.pcf -ucf nexys3.ucf 
+bitgen -intstyle ise -f sesame.ut sesame.ncd 
+xst -intstyle ise -ifn "C:/Users/152/Documents/Fay_Daniel_152A/FDPaint/sesame.xst" -ofn "C:/Users/152/Documents/Fay_Daniel_152A/FDPaint/sesame.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc nexys3.ucf -p xc6slx16-csg324-2 sesame.ngc sesame.ngd  
+map -intstyle ise -p xc6slx16-csg324-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o sesame_map.ncd sesame.ngd sesame.pcf 
+par -w -intstyle ise -ol high -mt off sesame_map.ncd sesame.ncd sesame.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml sesame.twx sesame.ncd -o sesame.twr sesame.pcf -ucf nexys3.ucf 
+bitgen -intstyle ise -f sesame.ut sesame.ncd 
+xst -intstyle ise -ifn "C:/Users/152/Documents/Fay_Daniel_152A/FDPaint/sesame.xst" -ofn "C:/Users/152/Documents/Fay_Daniel_152A/FDPaint/sesame.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc nexys3.ucf -p xc6slx16-csg324-2 sesame.ngc sesame.ngd  
+map -intstyle ise -p xc6slx16-csg324-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o sesame_map.ncd sesame.ngd sesame.pcf 
+par -w -intstyle ise -ol high -mt off sesame_map.ncd sesame.ncd sesame.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml sesame.twx sesame.ncd -o sesame.twr sesame.pcf -ucf nexys3.ucf 
+bitgen -intstyle ise -f sesame.ut sesame.ncd 
+xst -intstyle ise -ifn "C:/Users/152/Documents/Fay_Daniel_152A/FDPaint/sesame.xst" -ofn "C:/Users/152/Documents/Fay_Daniel_152A/FDPaint/sesame.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc nexys3.ucf -p xc6slx16-csg324-2 sesame.ngc sesame.ngd  
+map -intstyle ise -p xc6slx16-csg324-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o sesame_map.ncd sesame.ngd sesame.pcf 
+par -w -intstyle ise -ol high -mt off sesame_map.ncd sesame.ncd sesame.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml sesame.twx sesame.ncd -o sesame.twr sesame.pcf -ucf nexys3.ucf 
+bitgen -intstyle ise -f sesame.ut sesame.ncd 
+xst -intstyle ise -ifn "C:/Users/152/Documents/Fay_Daniel_152A/FDPaint/sesame.xst" -ofn "C:/Users/152/Documents/Fay_Daniel_152A/FDPaint/sesame.syr" 
+xst -intstyle ise -ifn "C:/Users/152/Documents/Fay_Daniel_152A/FDPaint/sesame.xst" -ofn "C:/Users/152/Documents/Fay_Daniel_152A/FDPaint/sesame.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc nexys3.ucf -p xc6slx16-csg324-2 sesame.ngc sesame.ngd  
+map -intstyle ise -p xc6slx16-csg324-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o sesame_map.ncd sesame.ngd sesame.pcf 
+par -w -intstyle ise -ol high -mt off sesame_map.ncd sesame.ncd sesame.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml sesame.twx sesame.ncd -o sesame.twr sesame.pcf -ucf nexys3.ucf 
+bitgen -intstyle ise -f sesame.ut sesame.ncd 
+xst -intstyle ise -ifn "C:/Users/152/Documents/Fay_Daniel_152A/FDPaint/sesame.xst" -ofn "C:/Users/152/Documents/Fay_Daniel_152A/FDPaint/sesame.syr" 
+xst -intstyle ise -ifn "C:/Users/152/Documents/Fay_Daniel_152A/FDPaint/sesame.xst" -ofn "C:/Users/152/Documents/Fay_Daniel_152A/FDPaint/sesame.syr" 
+xst -intstyle ise -ifn "C:/Users/152/Documents/Fay_Daniel_152A/FDPaint/sesame.xst" -ofn "C:/Users/152/Documents/Fay_Daniel_152A/FDPaint/sesame.syr" 
+xst -intstyle ise -ifn "C:/Users/152/Documents/Fay_Daniel_152A/FDPaint/sesame.xst" -ofn "C:/Users/152/Documents/Fay_Daniel_152A/FDPaint/sesame.syr" 
+xst -intstyle ise -ifn "C:/Users/152/Documents/Fay_Daniel_152A/FDPaint/sesame.xst" -ofn "C:/Users/152/Documents/Fay_Daniel_152A/FDPaint/sesame.syr" 
+xst -intstyle ise -ifn "C:/Users/152/Documents/Fay_Daniel_152A/FDPaint/sesame.xst" -ofn "C:/Users/152/Documents/Fay_Daniel_152A/FDPaint/sesame.syr" 
+xst -intstyle ise -ifn "C:/Users/152/Documents/Fay_Daniel_152A/FDPaint/sesame.xst" -ofn "C:/Users/152/Documents/Fay_Daniel_152A/FDPaint/sesame.syr" 
+xst -intstyle ise -ifn "C:/Users/152/Documents/Fay_Daniel_152A/FDPaint/sesame.xst" -ofn "C:/Users/152/Documents/Fay_Daniel_152A/FDPaint/sesame.syr" 
+xst -intstyle ise -ifn "C:/Users/152/Documents/Fay_Daniel_152A/FDPaint/sesame.xst" -ofn "C:/Users/152/Documents/Fay_Daniel_152A/FDPaint/sesame.syr" 
+xst -intstyle ise -ifn "C:/Users/152/Documents/Fay_Daniel_152A/FDPaint/sesame.xst" -ofn "C:/Users/152/Documents/Fay_Daniel_152A/FDPaint/sesame.syr" 
+xst -intstyle ise -ifn "C:/Users/152/Documents/Fay_Daniel_152A/FDPaint/sesame.xst" -ofn "C:/Users/152/Documents/Fay_Daniel_152A/FDPaint/sesame.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc nexys3.ucf -p xc6slx16-csg324-2 sesame.ngc sesame.ngd  
+map -intstyle ise -p xc6slx16-csg324-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o sesame_map.ncd sesame.ngd sesame.pcf 
+par -w -intstyle ise -ol high -mt off sesame_map.ncd sesame.ncd sesame.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml sesame.twx sesame.ncd -o sesame.twr sesame.pcf -ucf nexys3.ucf 
+bitgen -intstyle ise -f sesame.ut sesame.ncd 
+xst -intstyle ise -ifn "/media/sf_CSM152A/FDPaint/sesame.xst" -ofn "/media/sf_CSM152A/FDPaint/sesame.syr" 
+xst -intstyle ise -ifn "/media/sf_CSM152A/FDPaint/sesame.xst" -ofn "/media/sf_CSM152A/FDPaint/sesame.syr" 
+xst -intstyle ise -ifn "/media/sf_CSM152A/FDPaint/sesame.xst" -ofn "/media/sf_CSM152A/FDPaint/sesame.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc nexys3.ucf -p xc6slx16-csg324-2 sesame.ngc sesame.ngd  
+map -intstyle ise -p xc6slx16-csg324-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o sesame_map.ncd sesame.ngd sesame.pcf 
+par -w -intstyle ise -ol high -mt off sesame_map.ncd sesame.ncd sesame.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml sesame.twx sesame.ncd -o sesame.twr sesame.pcf -ucf nexys3.ucf 
+bitgen -intstyle ise -f sesame.ut sesame.ncd 
+xst -intstyle ise -ifn "/media/sf_CSM152A/FDPaint/sesame.xst" -ofn "/media/sf_CSM152A/FDPaint/sesame.syr" 
+xst -intstyle ise -ifn "/media/sf_CSM152A/FDPaint/sesame.xst" -ofn "/media/sf_CSM152A/FDPaint/sesame.syr" 
+xst -intstyle ise -ifn "/media/sf_CSM152A/FDPaint/sesame.xst" -ofn "/media/sf_CSM152A/FDPaint/sesame.syr" 
+xst -intstyle ise -ifn "/media/sf_CSM152A/FDPaint/sesame.xst" -ofn "/media/sf_CSM152A/FDPaint/sesame.syr" 
+xst -intstyle ise -ifn "/media/sf_CSM152A/FDPaint/sesame.xst" -ofn "/media/sf_CSM152A/FDPaint/sesame.syr" 
+xst -intstyle ise -ifn "/media/sf_CSM152A/FDPaint/sesame.xst" -ofn "/media/sf_CSM152A/FDPaint/sesame.syr" 
+xst -intstyle ise -ifn "/media/sf_CSM152A/FDPaint/sesame.xst" -ofn "/media/sf_CSM152A/FDPaint/sesame.syr" 
+xst -intstyle ise -ifn "/media/sf_CSM152A/FDPaint/sesame.xst" -ofn "/media/sf_CSM152A/FDPaint/sesame.syr" 
+xst -intstyle ise -ifn "C:/Users/152/Documents/Fay_Daniel_152A/FDPaint/sesame.xst" -ofn "C:/Users/152/Documents/Fay_Daniel_152A/FDPaint/sesame.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc nexys3.ucf -p xc6slx16-csg324-2 sesame.ngc sesame.ngd  
+map -intstyle ise -p xc6slx16-csg324-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o sesame_map.ncd sesame.ngd sesame.pcf 
+par -w -intstyle ise -ol high -mt off sesame_map.ncd sesame.ncd sesame.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml sesame.twx sesame.ncd -o sesame.twr sesame.pcf -ucf nexys3.ucf 
+bitgen -intstyle ise -f sesame.ut sesame.ncd 
+xst -intstyle ise -ifn "C:/Users/152/Documents/Fay_Daniel_152A/FDPaint/sesame.xst" -ofn "C:/Users/152/Documents/Fay_Daniel_152A/FDPaint/sesame.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc nexys3.ucf -p xc6slx16-csg324-2 sesame.ngc sesame.ngd  
+map -intstyle ise -p xc6slx16-csg324-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o sesame_map.ncd sesame.ngd sesame.pcf 
+par -w -intstyle ise -ol high -mt off sesame_map.ncd sesame.ncd sesame.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml sesame.twx sesame.ncd -o sesame.twr sesame.pcf -ucf nexys3.ucf 
+bitgen -intstyle ise -f sesame.ut sesame.ncd 
+xst -intstyle ise -ifn "C:/Users/152/Documents/Fay_Daniel_152A/FDPaint/sesame.xst" -ofn "C:/Users/152/Documents/Fay_Daniel_152A/FDPaint/sesame.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc nexys3.ucf -p xc6slx16-csg324-2 sesame.ngc sesame.ngd  
+map -intstyle ise -p xc6slx16-csg324-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o sesame_map.ncd sesame.ngd sesame.pcf 
+par -w -intstyle ise -ol high -mt off sesame_map.ncd sesame.ncd sesame.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml sesame.twx sesame.ncd -o sesame.twr sesame.pcf -ucf nexys3.ucf 
+bitgen -intstyle ise -f sesame.ut sesame.ncd 
+xst -intstyle ise -ifn "C:/Users/152/Documents/Fay_Daniel_152A/FDPaint/sesame.xst" -ofn "C:/Users/152/Documents/Fay_Daniel_152A/FDPaint/sesame.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc nexys3.ucf -p xc6slx16-csg324-2 sesame.ngc sesame.ngd  
+map -intstyle ise -p xc6slx16-csg324-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o sesame_map.ncd sesame.ngd sesame.pcf 
+par -w -intstyle ise -ol high -mt off sesame_map.ncd sesame.ncd sesame.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml sesame.twx sesame.ncd -o sesame.twr sesame.pcf -ucf nexys3.ucf 
+bitgen -intstyle ise -f sesame.ut sesame.ncd 
+xst -intstyle ise -ifn "C:/Users/152/Documents/Fay_Daniel_152A/FDPaint/sesame.xst" -ofn "C:/Users/152/Documents/Fay_Daniel_152A/FDPaint/sesame.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc nexys3.ucf -p xc6slx16-csg324-2 sesame.ngc sesame.ngd  
+map -intstyle ise -p xc6slx16-csg324-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o sesame_map.ncd sesame.ngd sesame.pcf 
+par -w -intstyle ise -ol high -mt off sesame_map.ncd sesame.ncd sesame.pcf 
+bitgen -intstyle ise -f sesame.ut sesame.ncd 
+xst -intstyle ise -ifn "C:/Users/152/Documents/Fay_Daniel_152A/FDPaint/sesame.xst" -ofn "C:/Users/152/Documents/Fay_Daniel_152A/FDPaint/sesame.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc nexys3.ucf -p xc6slx16-csg324-2 sesame.ngc sesame.ngd  
+map -intstyle ise -p xc6slx16-csg324-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o sesame_map.ncd sesame.ngd sesame.pcf 
+par -w -intstyle ise -ol high -mt off sesame_map.ncd sesame.ncd sesame.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml sesame.twx sesame.ncd -o sesame.twr sesame.pcf -ucf nexys3.ucf 
+bitgen -intstyle ise -f sesame.ut sesame.ncd 
+xst -intstyle ise -ifn "C:/Users/152/Documents/Fay_Daniel_152A/FDPaint/sesame.xst" -ofn "C:/Users/152/Documents/Fay_Daniel_152A/FDPaint/sesame.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc nexys3.ucf -p xc6slx16-csg324-2 sesame.ngc sesame.ngd  
+map -intstyle ise -p xc6slx16-csg324-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o sesame_map.ncd sesame.ngd sesame.pcf 
+par -w -intstyle ise -ol high -mt off sesame_map.ncd sesame.ncd sesame.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml sesame.twx sesame.ncd -o sesame.twr sesame.pcf -ucf nexys3.ucf 
+bitgen -intstyle ise -f sesame.ut sesame.ncd 
+xst -intstyle ise -ifn "C:/Users/152/Documents/Fay_Daniel_152A/FDPaint/sesame.xst" -ofn "C:/Users/152/Documents/Fay_Daniel_152A/FDPaint/sesame.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc nexys3.ucf -p xc6slx16-csg324-2 sesame.ngc sesame.ngd  
+map -intstyle ise -p xc6slx16-csg324-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o sesame_map.ncd sesame.ngd sesame.pcf 
+par -w -intstyle ise -ol high -mt off sesame_map.ncd sesame.ncd sesame.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml sesame.twx sesame.ncd -o sesame.twr sesame.pcf -ucf nexys3.ucf 
+bitgen -intstyle ise -f sesame.ut sesame.ncd 
+xst -intstyle ise -ifn "C:/Users/152/Documents/Fay_Daniel_152A/FDPaint/sesame.xst" -ofn "C:/Users/152/Documents/Fay_Daniel_152A/FDPaint/sesame.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc nexys3.ucf -p xc6slx16-csg324-2 sesame.ngc sesame.ngd  
+map -intstyle ise -p xc6slx16-csg324-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o sesame_map.ncd sesame.ngd sesame.pcf 
+par -w -intstyle ise -ol high -mt off sesame_map.ncd sesame.ncd sesame.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml sesame.twx sesame.ncd -o sesame.twr sesame.pcf -ucf nexys3.ucf 
+bitgen -intstyle ise -f sesame.ut sesame.ncd 
+xst -intstyle ise -ifn "C:/Users/152/Documents/Fay_Daniel_152A/FDPaint/sesame.xst" -ofn "C:/Users/152/Documents/Fay_Daniel_152A/FDPaint/sesame.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc nexys3.ucf -p xc6slx16-csg324-2 sesame.ngc sesame.ngd  
+map -intstyle ise -p xc6slx16-csg324-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o sesame_map.ncd sesame.ngd sesame.pcf 
+par -w -intstyle ise -ol high -mt off sesame_map.ncd sesame.ncd sesame.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml sesame.twx sesame.ncd -o sesame.twr sesame.pcf -ucf nexys3.ucf 
+bitgen -intstyle ise -f sesame.ut sesame.ncd 
+xst -intstyle ise -ifn "C:/Users/152/Documents/Fay_Daniel_152A/FDPaint/sesame.xst" -ofn "C:/Users/152/Documents/Fay_Daniel_152A/FDPaint/sesame.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc nexys3.ucf -p xc6slx16-csg324-2 sesame.ngc sesame.ngd  
+map -intstyle ise -p xc6slx16-csg324-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o sesame_map.ncd sesame.ngd sesame.pcf 
+par -w -intstyle ise -ol high -mt off sesame_map.ncd sesame.ncd sesame.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml sesame.twx sesame.ncd -o sesame.twr sesame.pcf -ucf nexys3.ucf 
+bitgen -intstyle ise -f sesame.ut sesame.ncd 
+xst -intstyle ise -ifn "C:/Users/152/Documents/Fay_Daniel_152A/FDPaint/sesame.xst" -ofn "C:/Users/152/Documents/Fay_Daniel_152A/FDPaint/sesame.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc nexys3.ucf -p xc6slx16-csg324-2 sesame.ngc sesame.ngd  
+map -intstyle ise -p xc6slx16-csg324-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o sesame_map.ncd sesame.ngd sesame.pcf 
+par -w -intstyle ise -ol high -mt off sesame_map.ncd sesame.ncd sesame.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml sesame.twx sesame.ncd -o sesame.twr sesame.pcf -ucf nexys3.ucf 
+bitgen -intstyle ise -f sesame.ut sesame.ncd 
+xst -intstyle ise -ifn "C:/Users/152/Documents/Fay_Daniel_152A/FDPaint/sesame.xst" -ofn "C:/Users/152/Documents/Fay_Daniel_152A/FDPaint/sesame.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc nexys3.ucf -p xc6slx16-csg324-2 sesame.ngc sesame.ngd  
+map -intstyle ise -p xc6slx16-csg324-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o sesame_map.ncd sesame.ngd sesame.pcf 
+par -w -intstyle ise -ol high -mt off sesame_map.ncd sesame.ncd sesame.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml sesame.twx sesame.ncd -o sesame.twr sesame.pcf -ucf nexys3.ucf 
+bitgen -intstyle ise -f sesame.ut sesame.ncd 
+xst -intstyle ise -ifn "C:/Users/152/Documents/Fay_Daniel_152A/FDPaint/sesame.xst" -ofn "C:/Users/152/Documents/Fay_Daniel_152A/FDPaint/sesame.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc nexys3.ucf -p xc6slx16-csg324-2 sesame.ngc sesame.ngd  
+map -intstyle ise -p xc6slx16-csg324-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o sesame_map.ncd sesame.ngd sesame.pcf 
+par -w -intstyle ise -ol high -mt off sesame_map.ncd sesame.ncd sesame.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml sesame.twx sesame.ncd -o sesame.twr sesame.pcf -ucf nexys3.ucf 
+bitgen -intstyle ise -f sesame.ut sesame.ncd 
+xst -intstyle ise -ifn "C:/Users/152/Documents/Fay_Daniel_152A/FDPaint/sesame.xst" -ofn "C:/Users/152/Documents/Fay_Daniel_152A/FDPaint/sesame.syr" 
+xst -intstyle ise -ifn "C:/Users/152/Documents/Fay_Daniel_152A/FDPaint/sesame.xst" -ofn "C:/Users/152/Documents/Fay_Daniel_152A/FDPaint/sesame.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc nexys3.ucf -p xc6slx16-csg324-2 sesame.ngc sesame.ngd  
+map -intstyle ise -p xc6slx16-csg324-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o sesame_map.ncd sesame.ngd sesame.pcf 
+par -w -intstyle ise -ol high -mt off sesame_map.ncd sesame.ncd sesame.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml sesame.twx sesame.ncd -o sesame.twr sesame.pcf -ucf nexys3.ucf 
+bitgen -intstyle ise -f sesame.ut sesame.ncd 
+xst -intstyle ise -ifn "C:/Users/152/Documents/Fay_Daniel_152A/FDPaint/sesame.xst" -ofn "C:/Users/152/Documents/Fay_Daniel_152A/FDPaint/sesame.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc nexys3.ucf -p xc6slx16-csg324-2 sesame.ngc sesame.ngd  
+map -intstyle ise -p xc6slx16-csg324-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o sesame_map.ncd sesame.ngd sesame.pcf 
+par -w -intstyle ise -ol high -mt off sesame_map.ncd sesame.ncd sesame.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml sesame.twx sesame.ncd -o sesame.twr sesame.pcf -ucf nexys3.ucf 
+bitgen -intstyle ise -f sesame.ut sesame.ncd 
+xst -intstyle ise -ifn "C:/Users/152/Documents/Fay_Daniel_152A/FDPaint/sesame.xst" -ofn "C:/Users/152/Documents/Fay_Daniel_152A/FDPaint/sesame.syr" 
+xst -intstyle ise -ifn "C:/Users/152/Documents/Fay_Daniel_152A/FDPaint/sesame.xst" -ofn "C:/Users/152/Documents/Fay_Daniel_152A/FDPaint/sesame.syr" 
+xst -intstyle ise -ifn "C:/Users/152/Documents/Fay_Daniel_152A/FDPaint/sesame.xst" -ofn "C:/Users/152/Documents/Fay_Daniel_152A/FDPaint/sesame.syr" 
+xst -intstyle ise -ifn "C:/Users/152/Documents/Fay_Daniel_152A/FDPaint/sesame.xst" -ofn "C:/Users/152/Documents/Fay_Daniel_152A/FDPaint/sesame.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc nexys3.ucf -p xc6slx16-csg324-2 sesame.ngc sesame.ngd  
+map -intstyle ise -p xc6slx16-csg324-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o sesame_map.ncd sesame.ngd sesame.pcf 
+par -w -intstyle ise -ol high -mt off sesame_map.ncd sesame.ncd sesame.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml sesame.twx sesame.ncd -o sesame.twr sesame.pcf -ucf nexys3.ucf 
+bitgen -intstyle ise -f sesame.ut sesame.ncd 
+xst -intstyle ise -ifn "C:/Users/152/Documents/Fay_Daniel_152A/FDPaint/sesame.xst" -ofn "C:/Users/152/Documents/Fay_Daniel_152A/FDPaint/sesame.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc nexys3.ucf -p xc6slx16-csg324-2 sesame.ngc sesame.ngd  
+map -intstyle ise -p xc6slx16-csg324-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o sesame_map.ncd sesame.ngd sesame.pcf 
+par -w -intstyle ise -ol high -mt off sesame_map.ncd sesame.ncd sesame.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml sesame.twx sesame.ncd -o sesame.twr sesame.pcf -ucf nexys3.ucf 
+bitgen -intstyle ise -f sesame.ut sesame.ncd 
+xst -intstyle ise -ifn "C:/Users/152/Documents/Fay_Daniel_152A/FDPaint/sesame.xst" -ofn "C:/Users/152/Documents/Fay_Daniel_152A/FDPaint/sesame.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc nexys3.ucf -p xc6slx16-csg324-2 sesame.ngc sesame.ngd  
+map -intstyle ise -p xc6slx16-csg324-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o sesame_map.ncd sesame.ngd sesame.pcf 
+par -w -intstyle ise -ol high -mt off sesame_map.ncd sesame.ncd sesame.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml sesame.twx sesame.ncd -o sesame.twr sesame.pcf -ucf nexys3.ucf 
+bitgen -intstyle ise -f sesame.ut sesame.ncd 
+xst -intstyle ise -ifn "C:/Users/152/Documents/Fay_Daniel_152A/FDPaint/sesame.xst" -ofn "C:/Users/152/Documents/Fay_Daniel_152A/FDPaint/sesame.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc nexys3.ucf -p xc6slx16-csg324-2 sesame.ngc sesame.ngd  
+map -intstyle ise -p xc6slx16-csg324-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o sesame_map.ncd sesame.ngd sesame.pcf 
+par -w -intstyle ise -ol high -mt off sesame_map.ncd sesame.ncd sesame.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml sesame.twx sesame.ncd -o sesame.twr sesame.pcf -ucf nexys3.ucf 
+bitgen -intstyle ise -f sesame.ut sesame.ncd 
+xst -intstyle ise -ifn "C:/Users/152/Documents/Fay_Daniel_152A/FDPaint/sesame.xst" -ofn "C:/Users/152/Documents/Fay_Daniel_152A/FDPaint/sesame.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc nexys3.ucf -p xc6slx16-csg324-2 sesame.ngc sesame.ngd  
+map -intstyle ise -p xc6slx16-csg324-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o sesame_map.ncd sesame.ngd sesame.pcf 
+par -w -intstyle ise -ol high -mt off sesame_map.ncd sesame.ncd sesame.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml sesame.twx sesame.ncd -o sesame.twr sesame.pcf -ucf nexys3.ucf 
+bitgen -intstyle ise -f sesame.ut sesame.ncd 
+xst -intstyle ise -ifn "C:/Users/152/Documents/Fay_Daniel_152A/FDPaint/sesame.xst" -ofn "C:/Users/152/Documents/Fay_Daniel_152A/FDPaint/sesame.syr" 
+xst -intstyle ise -ifn "C:/Users/152/Documents/Fay_Daniel_152A/FDPaint/sesame.xst" -ofn "C:/Users/152/Documents/Fay_Daniel_152A/FDPaint/sesame.syr" 
+xst -intstyle ise -ifn "C:/Users/152/Documents/Fay_Daniel_152A/FDPaint/sesame.xst" -ofn "C:/Users/152/Documents/Fay_Daniel_152A/FDPaint/sesame.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc nexys3.ucf -p xc6slx16-csg324-2 sesame.ngc sesame.ngd  
+map -intstyle ise -p xc6slx16-csg324-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o sesame_map.ncd sesame.ngd sesame.pcf 
+par -w -intstyle ise -ol high -mt off sesame_map.ncd sesame.ncd sesame.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml sesame.twx sesame.ncd -o sesame.twr sesame.pcf -ucf nexys3.ucf 
+bitgen -intstyle ise -f sesame.ut sesame.ncd 
+xst -intstyle ise -ifn "C:/Users/152/Documents/Fay_Daniel_152A/FDPaint/sesame.xst" -ofn "C:/Users/152/Documents/Fay_Daniel_152A/FDPaint/sesame.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc nexys3.ucf -p xc6slx16-csg324-2 sesame.ngc sesame.ngd  
+map -intstyle ise -p xc6slx16-csg324-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o sesame_map.ncd sesame.ngd sesame.pcf 
+par -w -intstyle ise -ol high -mt off sesame_map.ncd sesame.ncd sesame.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml sesame.twx sesame.ncd -o sesame.twr sesame.pcf -ucf nexys3.ucf 
+bitgen -intstyle ise -f sesame.ut sesame.ncd 
+xst -intstyle ise -ifn "C:/Users/152/Documents/Fay_Daniel_152A/FDPaint/sesame.xst" -ofn "C:/Users/152/Documents/Fay_Daniel_152A/FDPaint/sesame.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc nexys3.ucf -p xc6slx16-csg324-2 sesame.ngc sesame.ngd  
+map -intstyle ise -p xc6slx16-csg324-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o sesame_map.ncd sesame.ngd sesame.pcf 
+par -w -intstyle ise -ol high -mt off sesame_map.ncd sesame.ncd sesame.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml sesame.twx sesame.ncd -o sesame.twr sesame.pcf -ucf nexys3.ucf 
+bitgen -intstyle ise -f sesame.ut sesame.ncd 
+xst -intstyle ise -ifn "C:/Users/152/Documents/Fay_Daniel_152A/FDPaint/sesame.xst" -ofn "C:/Users/152/Documents/Fay_Daniel_152A/FDPaint/sesame.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc nexys3.ucf -p xc6slx16-csg324-2 sesame.ngc sesame.ngd  
+map -intstyle ise -p xc6slx16-csg324-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o sesame_map.ncd sesame.ngd sesame.pcf 
+par -w -intstyle ise -ol high -mt off sesame_map.ncd sesame.ncd sesame.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml sesame.twx sesame.ncd -o sesame.twr sesame.pcf -ucf nexys3.ucf 
+bitgen -intstyle ise -f sesame.ut sesame.ncd 
+xst -intstyle ise -ifn "C:/Users/152/Documents/Fay_Daniel_152A/FDPaint/sesame.xst" -ofn "C:/Users/152/Documents/Fay_Daniel_152A/FDPaint/sesame.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc nexys3.ucf -p xc6slx16-csg324-2 sesame.ngc sesame.ngd  
+map -intstyle ise -p xc6slx16-csg324-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o sesame_map.ncd sesame.ngd sesame.pcf 
+par -w -intstyle ise -ol high -mt off sesame_map.ncd sesame.ncd sesame.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml sesame.twx sesame.ncd -o sesame.twr sesame.pcf -ucf nexys3.ucf 
+bitgen -intstyle ise -f sesame.ut sesame.ncd 
+xst -intstyle ise -ifn "C:/Users/152/Documents/Fay_Daniel_152A/FDPaint/sesame.xst" -ofn "C:/Users/152/Documents/Fay_Daniel_152A/FDPaint/sesame.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc nexys3.ucf -p xc6slx16-csg324-2 sesame.ngc sesame.ngd  
+map -intstyle ise -p xc6slx16-csg324-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o sesame_map.ncd sesame.ngd sesame.pcf 
+par -w -intstyle ise -ol high -mt off sesame_map.ncd sesame.ncd sesame.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml sesame.twx sesame.ncd -o sesame.twr sesame.pcf -ucf nexys3.ucf 
+bitgen -intstyle ise -f sesame.ut sesame.ncd 
+xst -intstyle ise -ifn "C:/Users/152/Documents/Fay_Daniel_152A/FDPaint/sesame.xst" -ofn "C:/Users/152/Documents/Fay_Daniel_152A/FDPaint/sesame.syr" 
+xst -intstyle ise -ifn "C:/Users/152/Documents/Fay_Daniel_152A/FDPaint/sesame.xst" -ofn "C:/Users/152/Documents/Fay_Daniel_152A/FDPaint/sesame.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc nexys3.ucf -p xc6slx16-csg324-2 sesame.ngc sesame.ngd  
+map -intstyle ise -p xc6slx16-csg324-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o sesame_map.ncd sesame.ngd sesame.pcf 
+par -w -intstyle ise -ol high -mt off sesame_map.ncd sesame.ncd sesame.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml sesame.twx sesame.ncd -o sesame.twr sesame.pcf -ucf nexys3.ucf 
+bitgen -intstyle ise -f sesame.ut sesame.ncd 
+xst -intstyle ise -ifn "C:/Users/152/Documents/Fay_Daniel_152A/FDPaint/sesame.xst" -ofn "C:/Users/152/Documents/Fay_Daniel_152A/FDPaint/sesame.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc nexys3.ucf -p xc6slx16-csg324-2 sesame.ngc sesame.ngd  
+map -intstyle ise -p xc6slx16-csg324-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o sesame_map.ncd sesame.ngd sesame.pcf 
+par -w -intstyle ise -ol high -mt off sesame_map.ncd sesame.ncd sesame.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml sesame.twx sesame.ncd -o sesame.twr sesame.pcf -ucf nexys3.ucf 
+bitgen -intstyle ise -f sesame.ut sesame.ncd 
+xst -intstyle ise -ifn "C:/Users/152/Documents/Fay_Daniel_152A/FDPaint/sesame.xst" -ofn "C:/Users/152/Documents/Fay_Daniel_152A/FDPaint/sesame.syr" 
+xst -intstyle ise -ifn "C:/Users/152/Documents/Fay_Daniel_152A/FDPaint/sesame.xst" -ofn "C:/Users/152/Documents/Fay_Daniel_152A/FDPaint/sesame.syr" 
+xst -intstyle ise -ifn "C:/Users/152/Documents/Fay_Daniel_152A/FDPaint/sesame.xst" -ofn "C:/Users/152/Documents/Fay_Daniel_152A/FDPaint/sesame.syr" 
+xst -intstyle ise -ifn "C:/Users/152/Documents/Fay_Daniel_152A/FDPaint/sesame.xst" -ofn "C:/Users/152/Documents/Fay_Daniel_152A/FDPaint/sesame.syr" 
+xst -intstyle ise -ifn "C:/Users/152/Documents/Fay_Daniel_152A/FDPaint/sesame.xst" -ofn "C:/Users/152/Documents/Fay_Daniel_152A/FDPaint/sesame.syr" 
+xst -intstyle ise -ifn "C:/Users/152/Documents/Fay_Daniel_152A/FDPaint/sesame.xst" -ofn "C:/Users/152/Documents/Fay_Daniel_152A/FDPaint/sesame.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc nexys3.ucf -p xc6slx16-csg324-2 sesame.ngc sesame.ngd  
+map -intstyle ise -p xc6slx16-csg324-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o sesame_map.ncd sesame.ngd sesame.pcf 
+par -w -intstyle ise -ol high -mt off sesame_map.ncd sesame.ncd sesame.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml sesame.twx sesame.ncd -o sesame.twr sesame.pcf -ucf nexys3.ucf 
+bitgen -intstyle ise -f sesame.ut sesame.ncd 
+xst -intstyle ise -ifn "C:/Users/152/Documents/Fay_Daniel_152A/FDPaint/sesame.xst" -ofn "C:/Users/152/Documents/Fay_Daniel_152A/FDPaint/sesame.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc nexys3.ucf -p xc6slx16-csg324-2 sesame.ngc sesame.ngd  
+map -intstyle ise -p xc6slx16-csg324-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o sesame_map.ncd sesame.ngd sesame.pcf 
+par -w -intstyle ise -ol high -mt off sesame_map.ncd sesame.ncd sesame.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml sesame.twx sesame.ncd -o sesame.twr sesame.pcf -ucf nexys3.ucf 
+bitgen -intstyle ise -f sesame.ut sesame.ncd 
+xst -intstyle ise -ifn "C:/Users/152/Documents/Fay_Daniel_152A/FDPaint/sesame.xst" -ofn "C:/Users/152/Documents/Fay_Daniel_152A/FDPaint/sesame.syr" 
+xst -intstyle ise -ifn "C:/Users/152/Documents/Fay_Daniel_152A/FDPaint/sesame.xst" -ofn "C:/Users/152/Documents/Fay_Daniel_152A/FDPaint/sesame.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc nexys3.ucf -p xc6slx16-csg324-2 sesame.ngc sesame.ngd  
+map -intstyle ise -p xc6slx16-csg324-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o sesame_map.ncd sesame.ngd sesame.pcf 
+par -w -intstyle ise -ol high -mt off sesame_map.ncd sesame.ncd sesame.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml sesame.twx sesame.ncd -o sesame.twr sesame.pcf -ucf nexys3.ucf 
+bitgen -intstyle ise -f sesame.ut sesame.ncd 
+xst -intstyle ise -ifn "C:/Users/152/Documents/Fay_Daniel_152A/FDPaint/sesame.xst" -ofn "C:/Users/152/Documents/Fay_Daniel_152A/FDPaint/sesame.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc nexys3.ucf -p xc6slx16-csg324-2 sesame.ngc sesame.ngd  
+map -intstyle ise -p xc6slx16-csg324-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o sesame_map.ncd sesame.ngd sesame.pcf 
+par -w -intstyle ise -ol high -mt off sesame_map.ncd sesame.ncd sesame.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml sesame.twx sesame.ncd -o sesame.twr sesame.pcf -ucf nexys3.ucf 
+bitgen -intstyle ise -f sesame.ut sesame.ncd 
+xst -intstyle ise -ifn "C:/Users/152/Documents/Fay_Daniel_152A/FDPaint/sesame.xst" -ofn "C:/Users/152/Documents/Fay_Daniel_152A/FDPaint/sesame.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc nexys3.ucf -p xc6slx16-csg324-2 sesame.ngc sesame.ngd  
+map -intstyle ise -p xc6slx16-csg324-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o sesame_map.ncd sesame.ngd sesame.pcf 
+par -w -intstyle ise -ol high -mt off sesame_map.ncd sesame.ncd sesame.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml sesame.twx sesame.ncd -o sesame.twr sesame.pcf -ucf nexys3.ucf 
+bitgen -intstyle ise -f sesame.ut sesame.ncd 
+xst -intstyle ise -ifn "C:/Users/152/Documents/Fay_Daniel_152A/FDPaint/sesame.xst" -ofn "C:/Users/152/Documents/Fay_Daniel_152A/FDPaint/sesame.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc nexys3.ucf -p xc6slx16-csg324-2 sesame.ngc sesame.ngd  
+map -intstyle ise -p xc6slx16-csg324-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o sesame_map.ncd sesame.ngd sesame.pcf 
+par -w -intstyle ise -ol high -mt off sesame_map.ncd sesame.ncd sesame.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml sesame.twx sesame.ncd -o sesame.twr sesame.pcf -ucf nexys3.ucf 
+bitgen -intstyle ise -f sesame.ut sesame.ncd 
+xst -intstyle ise -ifn "C:/Users/152/Documents/Fay_Daniel_152A/FDPaint/sesame.xst" -ofn "C:/Users/152/Documents/Fay_Daniel_152A/FDPaint/sesame.syr" 
+xst -intstyle ise -ifn "C:/Users/152/Documents/Fay_Daniel_152A/FDPaint/sesame.xst" -ofn "C:/Users/152/Documents/Fay_Daniel_152A/FDPaint/sesame.syr" 
+xst -intstyle ise -ifn "C:/Users/152/Documents/Fay_Daniel_152A/FDPaint/sesame.xst" -ofn "C:/Users/152/Documents/Fay_Daniel_152A/FDPaint/sesame.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc nexys3.ucf -p xc6slx16-csg324-2 sesame.ngc sesame.ngd  
+map -intstyle ise -p xc6slx16-csg324-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o sesame_map.ncd sesame.ngd sesame.pcf 
+par -w -intstyle ise -ol high -mt off sesame_map.ncd sesame.ncd sesame.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml sesame.twx sesame.ncd -o sesame.twr sesame.pcf -ucf nexys3.ucf 
+bitgen -intstyle ise -f sesame.ut sesame.ncd 
+xst -intstyle ise -ifn "C:/Users/152/Documents/Fay_Daniel_152A/FDPaint/sesame.xst" -ofn "C:/Users/152/Documents/Fay_Daniel_152A/FDPaint/sesame.syr" 
+xst -intstyle ise -ifn "C:/Users/152/Documents/Fay_Daniel_152A/FDPaint/sesame.xst" -ofn "C:/Users/152/Documents/Fay_Daniel_152A/FDPaint/sesame.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc nexys3.ucf -p xc6slx16-csg324-2 sesame.ngc sesame.ngd  
+map -intstyle ise -p xc6slx16-csg324-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o sesame_map.ncd sesame.ngd sesame.pcf 
+par -w -intstyle ise -ol high -mt off sesame_map.ncd sesame.ncd sesame.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml sesame.twx sesame.ncd -o sesame.twr sesame.pcf -ucf nexys3.ucf 
+bitgen -intstyle ise -f sesame.ut sesame.ncd 
+xst -intstyle ise -ifn "C:/Users/152/Documents/Fay_Daniel_152A/FDPaint/sesame.xst" -ofn "C:/Users/152/Documents/Fay_Daniel_152A/FDPaint/sesame.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc nexys3.ucf -p xc6slx16-csg324-2 sesame.ngc sesame.ngd  
+map -intstyle ise -p xc6slx16-csg324-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o sesame_map.ncd sesame.ngd sesame.pcf 
+par -w -intstyle ise -ol high -mt off sesame_map.ncd sesame.ncd sesame.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml sesame.twx sesame.ncd -o sesame.twr sesame.pcf -ucf nexys3.ucf 
+bitgen -intstyle ise -f sesame.ut sesame.ncd 
+xst -intstyle ise -ifn "C:/Users/152/Documents/Fay_Daniel_152A/FDPaint/sesame.xst" -ofn "C:/Users/152/Documents/Fay_Daniel_152A/FDPaint/sesame.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc nexys3.ucf -p xc6slx16-csg324-2 sesame.ngc sesame.ngd  
+map -intstyle ise -p xc6slx16-csg324-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o sesame_map.ncd sesame.ngd sesame.pcf 
+par -w -intstyle ise -ol high -mt off sesame_map.ncd sesame.ncd sesame.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml sesame.twx sesame.ncd -o sesame.twr sesame.pcf -ucf nexys3.ucf 
+bitgen -intstyle ise -f sesame.ut sesame.ncd 
+xst -intstyle ise -ifn "C:/Users/152/Documents/Fay_Daniel_152A/FDPaint/sesame.xst" -ofn "C:/Users/152/Documents/Fay_Daniel_152A/FDPaint/sesame.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc nexys3.ucf -p xc6slx16-csg324-2 sesame.ngc sesame.ngd  
+map -intstyle ise -p xc6slx16-csg324-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o sesame_map.ncd sesame.ngd sesame.pcf 
+par -w -intstyle ise -ol high -mt off sesame_map.ncd sesame.ncd sesame.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml sesame.twx sesame.ncd -o sesame.twr sesame.pcf -ucf nexys3.ucf 
+bitgen -intstyle ise -f sesame.ut sesame.ncd 
+xst -intstyle ise -ifn "C:/Users/152/Documents/Fay_Daniel_152A/FDPaint/sesame.xst" -ofn "C:/Users/152/Documents/Fay_Daniel_152A/FDPaint/sesame.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc nexys3.ucf -p xc6slx16-csg324-2 sesame.ngc sesame.ngd  
+map -intstyle ise -p xc6slx16-csg324-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o sesame_map.ncd sesame.ngd sesame.pcf 
+par -w -intstyle ise -ol high -mt off sesame_map.ncd sesame.ncd sesame.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml sesame.twx sesame.ncd -o sesame.twr sesame.pcf -ucf nexys3.ucf 
+bitgen -intstyle ise -f sesame.ut sesame.ncd 
+xst -intstyle ise -ifn "C:/Users/152/Documents/Fay_Daniel_152A/FDPaint/sesame.xst" -ofn "C:/Users/152/Documents/Fay_Daniel_152A/FDPaint/sesame.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc nexys3.ucf -p xc6slx16-csg324-2 sesame.ngc sesame.ngd  
+map -intstyle ise -p xc6slx16-csg324-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o sesame_map.ncd sesame.ngd sesame.pcf 
+par -w -intstyle ise -ol high -mt off sesame_map.ncd sesame.ncd sesame.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml sesame.twx sesame.ncd -o sesame.twr sesame.pcf -ucf nexys3.ucf 
+bitgen -intstyle ise -f sesame.ut sesame.ncd 
+xst -intstyle ise -ifn "C:/Users/152/Documents/Fay_Daniel_152A/FDPaint/sesame.xst" -ofn "C:/Users/152/Documents/Fay_Daniel_152A/FDPaint/sesame.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc nexys3.ucf -p xc6slx16-csg324-2 sesame.ngc sesame.ngd  
+map -intstyle ise -p xc6slx16-csg324-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o sesame_map.ncd sesame.ngd sesame.pcf 
+par -w -intstyle ise -ol high -mt off sesame_map.ncd sesame.ncd sesame.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml sesame.twx sesame.ncd -o sesame.twr sesame.pcf -ucf nexys3.ucf 
+bitgen -intstyle ise -f sesame.ut sesame.ncd 
+xst -intstyle ise -ifn "C:/Users/152/Documents/Fay_Daniel_152A/FDPaint/sesame.xst" -ofn "C:/Users/152/Documents/Fay_Daniel_152A/FDPaint/sesame.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc nexys3.ucf -p xc6slx16-csg324-2 sesame.ngc sesame.ngd  
+map -intstyle ise -p xc6slx16-csg324-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o sesame_map.ncd sesame.ngd sesame.pcf 
+par -w -intstyle ise -ol high -mt off sesame_map.ncd sesame.ncd sesame.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml sesame.twx sesame.ncd -o sesame.twr sesame.pcf -ucf nexys3.ucf 
+bitgen -intstyle ise -f sesame.ut sesame.ncd 
+xst -intstyle ise -ifn "C:/Users/152/Documents/Fay_Daniel_152A/FDPaint/sesame.xst" -ofn "C:/Users/152/Documents/Fay_Daniel_152A/FDPaint/sesame.syr" 
+xst -intstyle ise -ifn "C:/Users/152/Documents/Fay_Daniel_152A/FDPaint/sesame.xst" -ofn "C:/Users/152/Documents/Fay_Daniel_152A/FDPaint/sesame.syr" 
+xst -intstyle ise -ifn "C:/Users/152/Documents/Fay_Daniel_152A/FDPaint/sesame.xst" -ofn "C:/Users/152/Documents/Fay_Daniel_152A/FDPaint/sesame.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc nexys3.ucf -p xc6slx16-csg324-2 sesame.ngc sesame.ngd  
+map -intstyle ise -p xc6slx16-csg324-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o sesame_map.ncd sesame.ngd sesame.pcf 
+par -w -intstyle ise -ol high -mt off sesame_map.ncd sesame.ncd sesame.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml sesame.twx sesame.ncd -o sesame.twr sesame.pcf -ucf nexys3.ucf 
+bitgen -intstyle ise -f sesame.ut sesame.ncd 
+xst -intstyle ise -ifn "C:/Users/152/Documents/Fay_Daniel_152A/FDPaint/sesame.xst" -ofn "C:/Users/152/Documents/Fay_Daniel_152A/FDPaint/sesame.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc nexys3.ucf -p xc6slx16-csg324-2 sesame.ngc sesame.ngd  
+map -intstyle ise -p xc6slx16-csg324-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o sesame_map.ncd sesame.ngd sesame.pcf 
+par -w -intstyle ise -ol high -mt off sesame_map.ncd sesame.ncd sesame.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml sesame.twx sesame.ncd -o sesame.twr sesame.pcf -ucf nexys3.ucf 
+bitgen -intstyle ise -f sesame.ut sesame.ncd 
+xst -intstyle ise -ifn "C:/Users/152/Documents/Fay_Daniel_152A/FDPaint/sesame.xst" -ofn "C:/Users/152/Documents/Fay_Daniel_152A/FDPaint/sesame.syr" 
+xst -intstyle ise -ifn "C:/Users/152/Documents/Fay_Daniel_152A/FDPaint/sesame.xst" -ofn "C:/Users/152/Documents/Fay_Daniel_152A/FDPaint/sesame.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc nexys3.ucf -p xc6slx16-csg324-2 sesame.ngc sesame.ngd  
+map -intstyle ise -p xc6slx16-csg324-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o sesame_map.ncd sesame.ngd sesame.pcf 
+par -w -intstyle ise -ol high -mt off sesame_map.ncd sesame.ncd sesame.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml sesame.twx sesame.ncd -o sesame.twr sesame.pcf -ucf nexys3.ucf 
+bitgen -intstyle ise -f sesame.ut sesame.ncd 
+xst -intstyle ise -ifn "C:/Users/152/Documents/Fay_Daniel_152A/FDPaint/sesame.xst" -ofn "C:/Users/152/Documents/Fay_Daniel_152A/FDPaint/sesame.syr" 
+xst -intstyle ise -ifn "C:/Users/152/Documents/Fay_Daniel_152A/FDPaint/sesame.xst" -ofn "C:/Users/152/Documents/Fay_Daniel_152A/FDPaint/sesame.syr" 
+xst -intstyle ise -ifn "C:/Users/152/Documents/Fay_Daniel_152A/FDPaint/sesame.xst" -ofn "C:/Users/152/Documents/Fay_Daniel_152A/FDPaint/sesame.syr" 
+xst -intstyle ise -ifn "C:/Users/152/Documents/Fay_Daniel_152A/FDPaint/sesame.xst" -ofn "C:/Users/152/Documents/Fay_Daniel_152A/FDPaint/sesame.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc nexys3.ucf -p xc6slx16-csg324-2 sesame.ngc sesame.ngd  
+map -intstyle ise -p xc6slx16-csg324-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o sesame_map.ncd sesame.ngd sesame.pcf 
+par -w -intstyle ise -ol high -mt off sesame_map.ncd sesame.ncd sesame.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml sesame.twx sesame.ncd -o sesame.twr sesame.pcf -ucf nexys3.ucf 
+bitgen -intstyle ise -f sesame.ut sesame.ncd 
+xst -intstyle ise -ifn "C:/Users/152/Documents/Fay_Daniel_152A/FDPaint/sesame.xst" -ofn "C:/Users/152/Documents/Fay_Daniel_152A/FDPaint/sesame.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc nexys3.ucf -p xc6slx16-csg324-2 sesame.ngc sesame.ngd  
+map -intstyle ise -p xc6slx16-csg324-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o sesame_map.ncd sesame.ngd sesame.pcf 
+par -w -intstyle ise -ol high -mt off sesame_map.ncd sesame.ncd sesame.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml sesame.twx sesame.ncd -o sesame.twr sesame.pcf -ucf nexys3.ucf 
+bitgen -intstyle ise -f sesame.ut sesame.ncd 
+xst -intstyle ise -ifn "C:/Users/152/Documents/Fay_Daniel_152A/FDPaint/sesame.xst" -ofn "C:/Users/152/Documents/Fay_Daniel_152A/FDPaint/sesame.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc nexys3.ucf -p xc6slx16-csg324-2 sesame.ngc sesame.ngd  
+map -intstyle ise -p xc6slx16-csg324-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o sesame_map.ncd sesame.ngd sesame.pcf 
+par -w -intstyle ise -ol high -mt off sesame_map.ncd sesame.ncd sesame.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml sesame.twx sesame.ncd -o sesame.twr sesame.pcf -ucf nexys3.ucf 
+bitgen -intstyle ise -f sesame.ut sesame.ncd 
+xst -intstyle ise -ifn "C:/Users/152/Documents/Fay_Daniel_152A/FDPaint/sesame.xst" -ofn "C:/Users/152/Documents/Fay_Daniel_152A/FDPaint/sesame.syr" 
+xst -intstyle ise -ifn "C:/Users/152/Documents/Fay_Daniel_152A/FDPaint/sesame.xst" -ofn "C:/Users/152/Documents/Fay_Daniel_152A/FDPaint/sesame.syr" 
+xst -intstyle ise -ifn "C:/Users/152/Documents/Fay_Daniel_152A/FDPaint/sesame.xst" -ofn "C:/Users/152/Documents/Fay_Daniel_152A/FDPaint/sesame.syr" 
+xst -intstyle ise -ifn "C:/Users/152/Documents/Fay_Daniel_152A/FDPaint/sesame.xst" -ofn "C:/Users/152/Documents/Fay_Daniel_152A/FDPaint/sesame.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc nexys3.ucf -p xc6slx16-csg324-2 sesame.ngc sesame.ngd  
+map -intstyle ise -p xc6slx16-csg324-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o sesame_map.ncd sesame.ngd sesame.pcf 
+xst -intstyle ise -ifn "C:/Users/152/Documents/Fay_Daniel_152A/FDPaint/sesame.xst" -ofn "C:/Users/152/Documents/Fay_Daniel_152A/FDPaint/sesame.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc nexys3.ucf -p xc6slx16-csg324-2 sesame.ngc sesame.ngd  
+map -intstyle ise -p xc6slx16-csg324-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o sesame_map.ncd sesame.ngd sesame.pcf 
+par -w -intstyle ise -ol high -mt off sesame_map.ncd sesame.ncd sesame.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml sesame.twx sesame.ncd -o sesame.twr sesame.pcf -ucf nexys3.ucf 
+bitgen -intstyle ise -f sesame.ut sesame.ncd 
+xst -intstyle ise -ifn "C:/Users/152/Documents/Fay_Daniel_152A/FDPaint/sesame.xst" -ofn "C:/Users/152/Documents/Fay_Daniel_152A/FDPaint/sesame.syr" 
+xst -intstyle ise -ifn "C:/Users/152/Documents/Fay_Daniel_152A/FDPaint/sesame.xst" -ofn "C:/Users/152/Documents/Fay_Daniel_152A/FDPaint/sesame.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc nexys3.ucf -p xc6slx16-csg324-2 sesame.ngc sesame.ngd  
+map -intstyle ise -p xc6slx16-csg324-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o sesame_map.ncd sesame.ngd sesame.pcf 
+par -w -intstyle ise -ol high -mt off sesame_map.ncd sesame.ncd sesame.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml sesame.twx sesame.ncd -o sesame.twr sesame.pcf -ucf nexys3.ucf 
+bitgen -intstyle ise -f sesame.ut sesame.ncd 
+xst -intstyle ise -ifn "C:/Users/152/Documents/Fay_Daniel_152A/FDPaint/sesame.xst" -ofn "C:/Users/152/Documents/Fay_Daniel_152A/FDPaint/sesame.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc nexys3.ucf -p xc6slx16-csg324-2 sesame.ngc sesame.ngd  
+map -intstyle ise -p xc6slx16-csg324-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o sesame_map.ncd sesame.ngd sesame.pcf 
+par -w -intstyle ise -ol high -mt off sesame_map.ncd sesame.ncd sesame.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml sesame.twx sesame.ncd -o sesame.twr sesame.pcf -ucf nexys3.ucf 
+bitgen -intstyle ise -f sesame.ut sesame.ncd 
+xst -intstyle ise -ifn "C:/Users/152/Documents/Fay_Daniel_152A/FDPaint/sesame.xst" -ofn "C:/Users/152/Documents/Fay_Daniel_152A/FDPaint/sesame.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc nexys3.ucf -p xc6slx16-csg324-2 sesame.ngc sesame.ngd  
+map -intstyle ise -p xc6slx16-csg324-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o sesame_map.ncd sesame.ngd sesame.pcf 
+par -w -intstyle ise -ol high -mt off sesame_map.ncd sesame.ncd sesame.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml sesame.twx sesame.ncd -o sesame.twr sesame.pcf -ucf nexys3.ucf 
+bitgen -intstyle ise -f sesame.ut sesame.ncd 
+xst -intstyle ise -ifn "C:/Users/152/Documents/Fay_Daniel_152A/FDPaint/sesame.xst" -ofn "C:/Users/152/Documents/Fay_Daniel_152A/FDPaint/sesame.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc nexys3.ucf -p xc6slx16-csg324-2 sesame.ngc sesame.ngd  
+map -intstyle ise -p xc6slx16-csg324-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o sesame_map.ncd sesame.ngd sesame.pcf 
+par -w -intstyle ise -ol high -mt off sesame_map.ncd sesame.ncd sesame.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml sesame.twx sesame.ncd -o sesame.twr sesame.pcf -ucf nexys3.ucf 
+bitgen -intstyle ise -f sesame.ut sesame.ncd 
+xst -intstyle ise -ifn "C:/Users/152/Documents/Fay_Daniel_152A/FDPaint/sesame.xst" -ofn "C:/Users/152/Documents/Fay_Daniel_152A/FDPaint/sesame.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc nexys3.ucf -p xc6slx16-csg324-2 sesame.ngc sesame.ngd  
+map -intstyle ise -p xc6slx16-csg324-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o sesame_map.ncd sesame.ngd sesame.pcf 
+par -w -intstyle ise -ol high -mt off sesame_map.ncd sesame.ncd sesame.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml sesame.twx sesame.ncd -o sesame.twr sesame.pcf -ucf nexys3.ucf 
+bitgen -intstyle ise -f sesame.ut sesame.ncd 
+xst -intstyle ise -ifn "C:/Users/152/Documents/Fay_Daniel_152A/FDPaint/sesame.xst" -ofn "C:/Users/152/Documents/Fay_Daniel_152A/FDPaint/sesame.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc nexys3.ucf -p xc6slx16-csg324-2 sesame.ngc sesame.ngd  
+map -intstyle ise -p xc6slx16-csg324-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o sesame_map.ncd sesame.ngd sesame.pcf 
+par -w -intstyle ise -ol high -mt off sesame_map.ncd sesame.ncd sesame.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml sesame.twx sesame.ncd -o sesame.twr sesame.pcf -ucf nexys3.ucf 
+bitgen -intstyle ise -f sesame.ut sesame.ncd 
+xst -intstyle ise -ifn "C:/Users/152/Documents/Fay_Daniel_152A/FDPaint/sesame.xst" -ofn "C:/Users/152/Documents/Fay_Daniel_152A/FDPaint/sesame.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc nexys3.ucf -p xc6slx16-csg324-2 sesame.ngc sesame.ngd  
+map -intstyle ise -p xc6slx16-csg324-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o sesame_map.ncd sesame.ngd sesame.pcf 
+par -w -intstyle ise -ol high -mt off sesame_map.ncd sesame.ncd sesame.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml sesame.twx sesame.ncd -o sesame.twr sesame.pcf -ucf nexys3.ucf 
+bitgen -intstyle ise -f sesame.ut sesame.ncd 
+xst -intstyle ise -ifn "C:/Users/152/Documents/Fay_Daniel_152A/FDPaint/sesame.xst" -ofn "C:/Users/152/Documents/Fay_Daniel_152A/FDPaint/sesame.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc nexys3.ucf -p xc6slx16-csg324-2 sesame.ngc sesame.ngd  
+map -intstyle ise -p xc6slx16-csg324-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o sesame_map.ncd sesame.ngd sesame.pcf 
+par -w -intstyle ise -ol high -mt off sesame_map.ncd sesame.ncd sesame.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml sesame.twx sesame.ncd -o sesame.twr sesame.pcf -ucf nexys3.ucf 
+bitgen -intstyle ise -f sesame.ut sesame.ncd 
+xst -intstyle ise -ifn "C:/Users/152/Documents/Fay_Daniel_152A/FDPaint/sesame.xst" -ofn "C:/Users/152/Documents/Fay_Daniel_152A/FDPaint/sesame.syr" 
+xst -intstyle ise -ifn "C:/Users/152/Documents/Fay_Daniel_152A/FDPaint/sesame.xst" -ofn "C:/Users/152/Documents/Fay_Daniel_152A/FDPaint/sesame.syr" 
+xst -intstyle ise -ifn "C:/Users/152/Documents/Fay_Daniel_152A/FDPaint/sesame.xst" -ofn "C:/Users/152/Documents/Fay_Daniel_152A/FDPaint/sesame.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc nexys3.ucf -p xc6slx16-csg324-2 sesame.ngc sesame.ngd  
+map -intstyle ise -p xc6slx16-csg324-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o sesame_map.ncd sesame.ngd sesame.pcf 
+par -w -intstyle ise -ol high -mt off sesame_map.ncd sesame.ncd sesame.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml sesame.twx sesame.ncd -o sesame.twr sesame.pcf -ucf nexys3.ucf 
+bitgen -intstyle ise -f sesame.ut sesame.ncd 
+xst -intstyle ise -ifn "C:/Users/152/Documents/Fay_Daniel_152A/FDPaint/sesame.xst" -ofn "C:/Users/152/Documents/Fay_Daniel_152A/FDPaint/sesame.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc nexys3.ucf -p xc6slx16-csg324-2 sesame.ngc sesame.ngd  
+map -intstyle ise -p xc6slx16-csg324-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o sesame_map.ncd sesame.ngd sesame.pcf 
+par -w -intstyle ise -ol high -mt off sesame_map.ncd sesame.ncd sesame.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml sesame.twx sesame.ncd -o sesame.twr sesame.pcf -ucf nexys3.ucf 
+bitgen -intstyle ise -f sesame.ut sesame.ncd 
+xst -intstyle ise -ifn "C:/Users/152/Documents/Fay_Daniel_152A/FDPaint/sesame.xst" -ofn "C:/Users/152/Documents/Fay_Daniel_152A/FDPaint/sesame.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc nexys3.ucf -p xc6slx16-csg324-2 sesame.ngc sesame.ngd  
+map -intstyle ise -p xc6slx16-csg324-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o sesame_map.ncd sesame.ngd sesame.pcf 
+par -w -intstyle ise -ol high -mt off sesame_map.ncd sesame.ncd sesame.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml sesame.twx sesame.ncd -o sesame.twr sesame.pcf -ucf nexys3.ucf 
+bitgen -intstyle ise -f sesame.ut sesame.ncd 
+xst -intstyle ise -ifn "C:/Users/152/Documents/Fay_Daniel_152A/FDPaint/sesame.xst" -ofn "C:/Users/152/Documents/Fay_Daniel_152A/FDPaint/sesame.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc nexys3.ucf -p xc6slx16-csg324-2 sesame.ngc sesame.ngd  
+map -intstyle ise -p xc6slx16-csg324-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o sesame_map.ncd sesame.ngd sesame.pcf 
+par -w -intstyle ise -ol high -mt off sesame_map.ncd sesame.ncd sesame.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml sesame.twx sesame.ncd -o sesame.twr sesame.pcf -ucf nexys3.ucf 
+bitgen -intstyle ise -f sesame.ut sesame.ncd 
+xst -intstyle ise -ifn "C:/Users/152/Documents/Fay_Daniel_152A/FDPaint/sesame.xst" -ofn "C:/Users/152/Documents/Fay_Daniel_152A/FDPaint/sesame.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc nexys3.ucf -p xc6slx16-csg324-2 sesame.ngc sesame.ngd  
+map -intstyle ise -p xc6slx16-csg324-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o sesame_map.ncd sesame.ngd sesame.pcf 
+par -w -intstyle ise -ol high -mt off sesame_map.ncd sesame.ncd sesame.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml sesame.twx sesame.ncd -o sesame.twr sesame.pcf -ucf nexys3.ucf 
+bitgen -intstyle ise -f sesame.ut sesame.ncd 
+xst -intstyle ise -ifn "C:/Users/152/Documents/Fay_Daniel_152A/FDPaint/sesame.xst" -ofn "C:/Users/152/Documents/Fay_Daniel_152A/FDPaint/sesame.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc nexys3.ucf -p xc6slx16-csg324-2 sesame.ngc sesame.ngd  
+map -intstyle ise -p xc6slx16-csg324-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o sesame_map.ncd sesame.ngd sesame.pcf 
+par -w -intstyle ise -ol high -mt off sesame_map.ncd sesame.ncd sesame.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml sesame.twx sesame.ncd -o sesame.twr sesame.pcf -ucf nexys3.ucf 
+bitgen -intstyle ise -f sesame.ut sesame.ncd 
+xst -intstyle ise -ifn "C:/Users/152/Documents/Fay_Daniel_152A/FDPaint/sesame.xst" -ofn "C:/Users/152/Documents/Fay_Daniel_152A/FDPaint/sesame.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc nexys3.ucf -p xc6slx16-csg324-2 sesame.ngc sesame.ngd  
+map -intstyle ise -p xc6slx16-csg324-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o sesame_map.ncd sesame.ngd sesame.pcf 
+par -w -intstyle ise -ol high -mt off sesame_map.ncd sesame.ncd sesame.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml sesame.twx sesame.ncd -o sesame.twr sesame.pcf -ucf nexys3.ucf 
+bitgen -intstyle ise -f sesame.ut sesame.ncd 
+xst -intstyle ise -ifn "C:/Users/152/Documents/Fay_Daniel_152A/FDPaint/sesame.xst" -ofn "C:/Users/152/Documents/Fay_Daniel_152A/FDPaint/sesame.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc nexys3.ucf -p xc6slx16-csg324-2 sesame.ngc sesame.ngd  
+map -intstyle ise -p xc6slx16-csg324-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o sesame_map.ncd sesame.ngd sesame.pcf 
+par -w -intstyle ise -ol high -mt off sesame_map.ncd sesame.ncd sesame.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml sesame.twx sesame.ncd -o sesame.twr sesame.pcf -ucf nexys3.ucf 
+bitgen -intstyle ise -f sesame.ut sesame.ncd 
+xst -intstyle ise -ifn "C:/Users/152/Documents/Fay_Daniel_152A/FDPaint/sesame.xst" -ofn "C:/Users/152/Documents/Fay_Daniel_152A/FDPaint/sesame.syr" 
+xst -intstyle ise -ifn "C:/Users/152/Documents/Fay_Daniel_152A/FDPaint/sesame.xst" -ofn "C:/Users/152/Documents/Fay_Daniel_152A/FDPaint/sesame.syr" 
+xst -intstyle ise -ifn "C:/Users/152/Documents/Fay_Daniel_152A/FDPaint/sesame.xst" -ofn "C:/Users/152/Documents/Fay_Daniel_152A/FDPaint/sesame.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc nexys3.ucf -p xc6slx16-csg324-2 sesame.ngc sesame.ngd  
+map -intstyle ise -p xc6slx16-csg324-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o sesame_map.ncd sesame.ngd sesame.pcf 
+par -w -intstyle ise -ol high -mt off sesame_map.ncd sesame.ncd sesame.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml sesame.twx sesame.ncd -o sesame.twr sesame.pcf -ucf nexys3.ucf 
+bitgen -intstyle ise -f sesame.ut sesame.ncd 
+xst -intstyle ise -ifn "C:/Users/152/Documents/Fay_Daniel_152A/FDPaint/sesame.xst" -ofn "C:/Users/152/Documents/Fay_Daniel_152A/FDPaint/sesame.syr" 
+xst -intstyle ise -ifn "C:/Users/152/Documents/Fay_Daniel_152A/FDPaint/sesame.xst" -ofn "C:/Users/152/Documents/Fay_Daniel_152A/FDPaint/sesame.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc nexys3.ucf -p xc6slx16-csg324-2 sesame.ngc sesame.ngd  
+map -intstyle ise -p xc6slx16-csg324-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o sesame_map.ncd sesame.ngd sesame.pcf 
+par -w -intstyle ise -ol high -mt off sesame_map.ncd sesame.ncd sesame.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml sesame.twx sesame.ncd -o sesame.twr sesame.pcf -ucf nexys3.ucf 
+bitgen -intstyle ise -f sesame.ut sesame.ncd 
+xst -intstyle ise -ifn "/home/daniel/Downloads/FDPaint/sesame.xst" -ofn "/home/daniel/Downloads/FDPaint/sesame.syr" 
+xst -intstyle ise -ifn "/home/daniel/Downloads/FDPaint/sesame.xst" -ofn "/home/daniel/Downloads/FDPaint/sesame.syr" 
+xst -intstyle ise -ifn "/home/daniel/Downloads/FDPaint/sesame.xst" -ofn "/home/daniel/Downloads/FDPaint/sesame.syr" 
+xst -intstyle ise -ifn "/home/daniel/Downloads/FDPaint/sesame.xst" -ofn "/home/daniel/Downloads/FDPaint/sesame.syr" 
+xst -intstyle ise -ifn "/home/daniel/Downloads/FDPaint/sesame.xst" -ofn "/home/daniel/Downloads/FDPaint/sesame.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc nexys3.ucf -p xc6slx16-csg324-2 sesame.ngc sesame.ngd  
+map -intstyle ise -p xc6slx16-csg324-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o sesame_map.ncd sesame.ngd sesame.pcf 
+par -w -intstyle ise -ol high -mt off sesame_map.ncd sesame.ncd sesame.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml sesame.twx sesame.ncd -o sesame.twr sesame.pcf -ucf nexys3.ucf 
+bitgen -intstyle ise -f sesame.ut sesame.ncd 
+xst -intstyle ise -ifn "/home/daniel/Downloads/FDPaint/sesame.xst" -ofn "/home/daniel/Downloads/FDPaint/sesame.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc nexys3.ucf -p xc6slx16-csg324-2 sesame.ngc sesame.ngd  
+map -intstyle ise -p xc6slx16-csg324-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o sesame_map.ncd sesame.ngd sesame.pcf 
+par -w -intstyle ise -ol high -mt off sesame_map.ncd sesame.ncd sesame.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml sesame.twx sesame.ncd -o sesame.twr sesame.pcf -ucf nexys3.ucf 
+bitgen -intstyle ise -f sesame.ut sesame.ncd 
+xst -intstyle ise -ifn "C:/Users/152/Documents/Fay_Daniel_152A/FDPaint/sesame.xst" -ofn "C:/Users/152/Documents/Fay_Daniel_152A/FDPaint/sesame.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc nexys3.ucf -p xc6slx16-csg324-2 sesame.ngc sesame.ngd  
+map -intstyle ise -p xc6slx16-csg324-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o sesame_map.ncd sesame.ngd sesame.pcf 
+par -w -intstyle ise -ol high -mt off sesame_map.ncd sesame.ncd sesame.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml sesame.twx sesame.ncd -o sesame.twr sesame.pcf -ucf nexys3.ucf 
+bitgen -intstyle ise -f sesame.ut sesame.ncd 
+xst -intstyle ise -ifn "C:/Users/152/Documents/Fay_Daniel_152A/FDPaint/sesame.xst" -ofn "C:/Users/152/Documents/Fay_Daniel_152A/FDPaint/sesame.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc nexys3.ucf -p xc6slx16-csg324-2 sesame.ngc sesame.ngd  
+map -intstyle ise -p xc6slx16-csg324-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o sesame_map.ncd sesame.ngd sesame.pcf 
+xst -intstyle ise -ifn "C:/Users/152/Documents/Fay_Daniel_152A/FDPaint/sesame.xst" -ofn "C:/Users/152/Documents/Fay_Daniel_152A/FDPaint/sesame.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc nexys3.ucf -p xc6slx16-csg324-2 sesame.ngc sesame.ngd  
+map -intstyle ise -p xc6slx16-csg324-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o sesame_map.ncd sesame.ngd sesame.pcf 
+xst -intstyle ise -ifn "C:/Users/152/Documents/Fay_Daniel_152A/FDPaint/sesame.xst" -ofn "C:/Users/152/Documents/Fay_Daniel_152A/FDPaint/sesame.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc nexys3.ucf -p xc6slx16-csg324-2 sesame.ngc sesame.ngd  
+map -intstyle ise -p xc6slx16-csg324-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o sesame_map.ncd sesame.ngd sesame.pcf 
+xst -intstyle ise -ifn "C:/Users/152/Documents/Fay_Daniel_152A/FDPaint/sesame.xst" -ofn "C:/Users/152/Documents/Fay_Daniel_152A/FDPaint/sesame.syr" 
+xst -intstyle ise -ifn "C:/Users/152/Documents/Fay_Daniel_152A/FDPaint/sesame.xst" -ofn "C:/Users/152/Documents/Fay_Daniel_152A/FDPaint/sesame.syr" 
+xst -intstyle ise -ifn "C:/Users/152/Documents/Fay_Daniel_152A/FDPaint/sesame.xst" -ofn "C:/Users/152/Documents/Fay_Daniel_152A/FDPaint/sesame.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc nexys3.ucf -p xc6slx16-csg324-2 sesame.ngc sesame.ngd  
+map -intstyle ise -p xc6slx16-csg324-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o sesame_map.ncd sesame.ngd sesame.pcf 
+par -w -intstyle ise -ol high -mt off sesame_map.ncd sesame.ncd sesame.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml sesame.twx sesame.ncd -o sesame.twr sesame.pcf -ucf nexys3.ucf 
+bitgen -intstyle ise -f sesame.ut sesame.ncd 
+xst -intstyle ise -ifn "C:/Users/152/Documents/Fay_Daniel_152A/FDPaint/sesame.xst" -ofn "C:/Users/152/Documents/Fay_Daniel_152A/FDPaint/sesame.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc nexys3.ucf -p xc6slx16-csg324-2 sesame.ngc sesame.ngd  
+map -intstyle ise -p xc6slx16-csg324-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o sesame_map.ncd sesame.ngd sesame.pcf 
+par -w -intstyle ise -ol high -mt off sesame_map.ncd sesame.ncd sesame.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml sesame.twx sesame.ncd -o sesame.twr sesame.pcf -ucf nexys3.ucf 
+bitgen -intstyle ise -f sesame.ut sesame.ncd 
+xst -intstyle ise -ifn "C:/Users/152/Documents/Fay_Daniel_152A/FDPaint/sesame.xst" -ofn "C:/Users/152/Documents/Fay_Daniel_152A/FDPaint/sesame.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc nexys3.ucf -p xc6slx16-csg324-2 sesame.ngc sesame.ngd  
+map -intstyle ise -p xc6slx16-csg324-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o sesame_map.ncd sesame.ngd sesame.pcf 
+par -w -intstyle ise -ol high -mt off sesame_map.ncd sesame.ncd sesame.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml sesame.twx sesame.ncd -o sesame.twr sesame.pcf -ucf nexys3.ucf 
+bitgen -intstyle ise -f sesame.ut sesame.ncd 
+xst -intstyle ise -ifn "C:/Users/152/Documents/Fay_Daniel_152A/FDPaint/sesame.xst" -ofn "C:/Users/152/Documents/Fay_Daniel_152A/FDPaint/sesame.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc nexys3.ucf -p xc6slx16-csg324-2 sesame.ngc sesame.ngd  
+map -intstyle ise -p xc6slx16-csg324-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o sesame_map.ncd sesame.ngd sesame.pcf 
+par -w -intstyle ise -ol high -mt off sesame_map.ncd sesame.ncd sesame.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml sesame.twx sesame.ncd -o sesame.twr sesame.pcf -ucf nexys3.ucf 
+bitgen -intstyle ise -f sesame.ut sesame.ncd 
+xst -intstyle ise -ifn "C:/Users/152/Documents/Fay_Daniel_152A/FDPaint/sesame.xst" -ofn "C:/Users/152/Documents/Fay_Daniel_152A/FDPaint/sesame.syr" 
+xst -intstyle ise -ifn "C:/Users/152/Documents/Fay_Daniel_152A/FDPaint/sesame.xst" -ofn "C:/Users/152/Documents/Fay_Daniel_152A/FDPaint/sesame.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc nexys3.ucf -p xc6slx16-csg324-2 sesame.ngc sesame.ngd  
+map -intstyle ise -p xc6slx16-csg324-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o sesame_map.ncd sesame.ngd sesame.pcf 
+par -w -intstyle ise -ol high -mt off sesame_map.ncd sesame.ncd sesame.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml sesame.twx sesame.ncd -o sesame.twr sesame.pcf -ucf nexys3.ucf 
+bitgen -intstyle ise -f sesame.ut sesame.ncd 
+xst -intstyle ise -ifn "C:/Users/152/Documents/Fay_Daniel_152A/FDPaint/sesame.xst" -ofn "C:/Users/152/Documents/Fay_Daniel_152A/FDPaint/sesame.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc nexys3.ucf -p xc6slx16-csg324-2 sesame.ngc sesame.ngd  
+map -intstyle ise -p xc6slx16-csg324-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o sesame_map.ncd sesame.ngd sesame.pcf 
+par -w -intstyle ise -ol high -mt off sesame_map.ncd sesame.ncd sesame.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml sesame.twx sesame.ncd -o sesame.twr sesame.pcf -ucf nexys3.ucf 
+bitgen -intstyle ise -f sesame.ut sesame.ncd 
+xst -intstyle ise -ifn "C:/Users/152/Documents/Fay_Daniel_152A/FDPaint/sesame.xst" -ofn "C:/Users/152/Documents/Fay_Daniel_152A/FDPaint/sesame.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc nexys3.ucf -p xc6slx16-csg324-2 sesame.ngc sesame.ngd  
+map -intstyle ise -p xc6slx16-csg324-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o sesame_map.ncd sesame.ngd sesame.pcf 
+par -w -intstyle ise -ol high -mt off sesame_map.ncd sesame.ncd sesame.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml sesame.twx sesame.ncd -o sesame.twr sesame.pcf -ucf nexys3.ucf 
+bitgen -intstyle ise -f sesame.ut sesame.ncd 
+xst -intstyle ise -ifn "C:/Users/152/Documents/Fay_Daniel_152A/FDPaint/sesame.xst" -ofn "C:/Users/152/Documents/Fay_Daniel_152A/FDPaint/sesame.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc nexys3.ucf -p xc6slx16-csg324-2 sesame.ngc sesame.ngd  
+map -intstyle ise -p xc6slx16-csg324-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o sesame_map.ncd sesame.ngd sesame.pcf 
+par -w -intstyle ise -ol high -mt off sesame_map.ncd sesame.ncd sesame.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml sesame.twx sesame.ncd -o sesame.twr sesame.pcf -ucf nexys3.ucf 
+bitgen -intstyle ise -f sesame.ut sesame.ncd 
+xst -intstyle ise -ifn "C:/Users/152/Documents/Fay_Daniel_152A/FDPaint/sesame.xst" -ofn "C:/Users/152/Documents/Fay_Daniel_152A/FDPaint/sesame.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc nexys3.ucf -p xc6slx16-csg324-2 sesame.ngc sesame.ngd  
+map -intstyle ise -p xc6slx16-csg324-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o sesame_map.ncd sesame.ngd sesame.pcf 
+par -w -intstyle ise -ol high -mt off sesame_map.ncd sesame.ncd sesame.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml sesame.twx sesame.ncd -o sesame.twr sesame.pcf -ucf nexys3.ucf 
+bitgen -intstyle ise -f sesame.ut sesame.ncd 

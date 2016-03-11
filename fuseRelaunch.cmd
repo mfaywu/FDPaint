@@ -1,0 +1,1 @@
+-intstyle "ise" -incremental -lib "unisims_ver" -lib "unimacro_ver" -lib "xilinxcorelib_ver" -lib "secureip" -o "/media/sf_CSM152A/FDPaint/sesame_test_isim_beh.exe" -prj "/media/sf_CSM152A/FDPaint/sesame_test_beh.prj" "work.sesame_test" "work.glbl" 

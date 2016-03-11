@@ -1,0 +1,29 @@
+Command line:
+   sesame_test_isim_beh.exe
+     -simmode  gui
+     -simrunnum  0
+     -socket  33715
+
+Tue Feb 23 19:10:35 2016
+
+
+ Elaboration Time: 0.04 sec
+
+ Current Memory Usage: 211.808 Meg
+
+ Total Signals          : 178
+ Total Nets             : 697
+ Total Signal Drivers   : 85
+ Total Blocks           : 21
+ Total Primitive Blocks : 16
+ Total Processes        : 103
+ Total Traceable Variables  : 349
+ Total Scalar Nets and Variables : 767754
+Total Line Count : 461
+
+ Total Simulation Time: 7.22 sec
+
+ Current Memory Usage: 287.31 Meg
+
+Tue Feb 23 19:11:54 2016
+

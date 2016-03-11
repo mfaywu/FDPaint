@@ -1,0 +1,2 @@
+xst -intstyle ise -ifn "C:/Users/152/Documents/Fay_Daniel_152A/FDPaint/vga_driver.xst" -ofn "C:/Users/152/Documents/Fay_Daniel_152A/FDPaint/vga_driver.syr" 
+xst -intstyle ise -ifn "C:/Users/152/Documents/Fay_Daniel_152A/FDPaint/vga_driver.xst" -ofn "C:/Users/152/Documents/Fay_Daniel_152A/FDPaint/vga_driver.syr" 

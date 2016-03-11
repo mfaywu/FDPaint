@@ -1,0 +1,23 @@
+ISim log file
+Running: /media/sf_CSM152A/FDPaint/sesame_test_isim_beh.exe -intstyle ise -gui -tclbatch isim.cmd -wdb /media/sf_CSM152A/FDPaint/sesame_test_isim_beh.wdb 
+ISim P.20131013 (signature 0xfbc00daa)
+WARNING: A WEBPACK license was found.
+WARNING: Please use Xilinx License Configuration Manager to check out a full ISim license.
+WARNING: ISim will run in Lite mode. Please refer to the ISim documentation for more information on the differences between the Lite and the Full version.
+This is a Lite version of ISim.
+WARNING:  For instance uut/pixel_mem/, width 1 of formal port wea is not equal to width 32 of actual constant.
+WARNING:  For instance uut/pixel_mem/, width 8 of formal port dina is not equal to width 32 of actual constant.
+Time resolution is 1 ps
+# onerror resume
+# wave add /
+# run 1000 ns
+Simulator is doing circuit initialization process.
+ Block Memory Generator CORE Generator module loading initial data...
+ Block Memory Generator data initialization complete.
+Block Memory Generator CORE Generator module sesame_test.uut.pixel_mem.inst.\native_mem_module.blk_mem_gen_v7_3_inst  is using a behavioral model for simulation which will not precisely model memory collision behavior.
+Finished circuit initialization process.
+# run 1.00us
+# run 1.00us
+# run 1s
+Stopped at time : 9840818 ns : File "/media/sf_CSM152A/FDPaint/sesame_test.v" Line 49
+# exit 0

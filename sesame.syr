@@ -1,0 +1,1348 @@
+Release 14.6 - xst P.68d (nt64)
+Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
+--> Parameter TMPDIR set to xst/projnav.tmp
+
+
+Total REAL time to Xst completion: 0.00 secs
+Total CPU time to Xst completion: 0.12 secs
+ 
+--> Parameter xsthdpdir set to xst
+
+
+Total REAL time to Xst completion: 0.00 secs
+Total CPU time to Xst completion: 0.12 secs
+ 
+--> Reading design: sesame.prj
+
+TABLE OF CONTENTS
+  1) Synthesis Options Summary
+  2) HDL Parsing
+  3) HDL Elaboration
+  4) HDL Synthesis
+       4.1) HDL Synthesis Report
+  5) Advanced HDL Synthesis
+       5.1) Advanced HDL Synthesis Report
+  6) Low Level Synthesis
+  7) Partition Report
+  8) Design Summary
+       8.1) Primitive and Black Box Usage
+       8.2) Device utilization summary
+       8.3) Partition Resource Summary
+       8.4) Timing Report
+            8.4.1) Clock Information
+            8.4.2) Asynchronous Control Signals Information
+            8.4.3) Timing Summary
+            8.4.4) Timing Details
+            8.4.5) Cross Clock Domains Report
+
+
+=========================================================================
+*                      Synthesis Options Summary                        *
+=========================================================================
+---- Source Parameters
+Input File Name                    : "sesame.prj"
+Ignore Synthesis Constraint File   : NO
+
+---- Target Parameters
+Output File Name                   : "sesame"
+Output Format                      : NGC
+Target Device                      : xc6slx16-2-csg324
+
+---- Source Options
+Top Module Name                    : sesame
+Automatic FSM Extraction           : YES
+FSM Encoding Algorithm             : Auto
+Safe Implementation                : No
+FSM Style                          : LUT
+RAM Extraction                     : Yes
+RAM Style                          : Auto
+ROM Extraction                     : Yes
+Shift Register Extraction          : YES
+ROM Style                          : Auto
+Resource Sharing                   : YES
+Asynchronous To Synchronous        : NO
+Shift Register Minimum Size        : 2
+Use DSP Block                      : Auto
+Automatic Register Balancing       : No
+
+---- Target Options
+LUT Combining                      : Auto
+Reduce Control Sets                : Auto
+Add IO Buffers                     : YES
+Global Maximum Fanout              : 100000
+Add Generic Clock Buffer(BUFG)     : 16
+Register Duplication               : YES
+Optimize Instantiated Primitives   : NO
+Use Clock Enable                   : Auto
+Use Synchronous Set                : Auto
+Use Synchronous Reset              : Auto
+Pack IO Registers into IOBs        : Auto
+Equivalent register Removal        : YES
+
+---- General Options
+Optimization Goal                  : Speed
+Optimization Effort                : 1
+Power Reduction                    : NO
+Keep Hierarchy                     : No
+Netlist Hierarchy                  : As_Optimized
+RTL Output                         : Yes
+Global Optimization                : AllClockNets
+Read Cores                         : YES
+Write Timing Constraints           : NO
+Cross Clock Analysis               : NO
+Hierarchy Separator                : /
+Bus Delimiter                      : <>
+Case Specifier                     : Maintain
+Slice Utilization Ratio            : 100
+BRAM Utilization Ratio             : 100
+DSP48 Utilization Ratio            : 100
+Auto BRAM Packing                  : NO
+Slice Utilization Ratio Delta      : 5
+
+---- Other Options
+Cores Search Directories           : {"ipcore_dir"  }
+
+=========================================================================
+
+
+=========================================================================
+*                          HDL Parsing                                  *
+=========================================================================
+Analyzing Verilog file "C:\Users\152\Documents\Fay_Daniel_152A\FDPaint\joy_interface.v" into library work
+Parsing module <joy_interface>.
+Analyzing Verilog file "C:\Users\152\Documents\Fay_Daniel_152A\FDPaint\joy_control.v" into library work
+Parsing module <joy_control>.
+WARNING:HDLCompiler:751 - "C:\Users\152\Documents\Fay_Daniel_152A\FDPaint\joy_control.v" Line 12: Redeclaration of ansi port SS is not allowed
+Analyzing Verilog file "C:\Users\152\Documents\Fay_Daniel_152A\FDPaint\joy.v" into library work
+Parsing module <joy>.
+Analyzing Verilog file "C:\Users\152\Documents\Fay_Daniel_152A\FDPaint\ipcore_dir\stamp_taco.v" into library work
+Parsing module <stamp_taco>.
+Analyzing Verilog file "C:\Users\152\Documents\Fay_Daniel_152A\FDPaint\ipcore_dir\stamp_penguin.v" into library work
+Parsing module <stamp_penguin>.
+Analyzing Verilog file "C:\Users\152\Documents\Fay_Daniel_152A\FDPaint\ipcore_dir\stamp_pencil.v" into library work
+Parsing module <stamp_pencil>.
+Analyzing Verilog file "C:\Users\152\Documents\Fay_Daniel_152A\FDPaint\ipcore_dir\stamp_mushroom.v" into library work
+Parsing module <stamp_mushroom>.
+Analyzing Verilog file "C:\Users\152\Documents\Fay_Daniel_152A\FDPaint\ipcore_dir\stamp_matt.v" into library work
+Parsing module <stamp_matt>.
+Analyzing Verilog file "C:\Users\152\Documents\Fay_Daniel_152A\FDPaint\ipcore_dir\stamp_jellyfish.v" into library work
+Parsing module <stamp_jellyfish>.
+Analyzing Verilog file "C:\Users\152\Documents\Fay_Daniel_152A\FDPaint\ipcore_dir\stamp_heart.v" into library work
+Parsing module <stamp_heart>.
+Analyzing Verilog file "C:\Users\152\Documents\Fay_Daniel_152A\FDPaint\ipcore_dir\stamp_eraser.v" into library work
+Parsing module <stamp_eraser>.
+Analyzing Verilog file "C:\Users\152\Documents\Fay_Daniel_152A\FDPaint\ipcore_dir\stamp_cat.v" into library work
+Parsing module <stamp_cat>.
+Analyzing Verilog file "C:\Users\152\Documents\Fay_Daniel_152A\FDPaint\ipcore_dir\pixel_map.v" into library work
+Parsing module <pixel_map>.
+Analyzing Verilog file "C:\Users\152\Documents\Fay_Daniel_152A\FDPaint\sesame.v" into library work
+Parsing module <sesame>.
+WARNING:HDLCompiler:751 - "C:\Users\152\Documents\Fay_Daniel_152A\FDPaint\sesame.v" Line 515: Redeclaration of ansi port SS is not allowed
+WARNING:HDLCompiler:751 - "C:\Users\152\Documents\Fay_Daniel_152A\FDPaint\sesame.v" Line 516: Redeclaration of ansi port MOSI is not allowed
+WARNING:HDLCompiler:751 - "C:\Users\152\Documents\Fay_Daniel_152A\FDPaint\sesame.v" Line 517: Redeclaration of ansi port SCLK is not allowed
+
+=========================================================================
+*                            HDL Elaboration                            *
+=========================================================================
+
+Elaborating module <sesame>.
+WARNING:HDLCompiler:872 - "C:\Users\152\Documents\Fay_Daniel_152A\FDPaint\sesame.v" Line 203: Using initial value of stamp_size since it is never assigned
+WARNING:HDLCompiler:413 - "C:\Users\152\Documents\Fay_Daniel_152A\FDPaint\sesame.v" Line 61: Result of 31-bit expression is truncated to fit in 10-bit target.
+WARNING:HDLCompiler:413 - "C:\Users\152\Documents\Fay_Daniel_152A\FDPaint\sesame.v" Line 63: Result of 31-bit expression is truncated to fit in 10-bit target.
+WARNING:HDLCompiler:413 - "C:\Users\152\Documents\Fay_Daniel_152A\FDPaint\sesame.v" Line 91: Result of 32-bit expression is truncated to fit in 10-bit target.
+WARNING:HDLCompiler:413 - "C:\Users\152\Documents\Fay_Daniel_152A\FDPaint\sesame.v" Line 93: Result of 32-bit expression is truncated to fit in 10-bit target.
+WARNING:HDLCompiler:413 - "C:\Users\152\Documents\Fay_Daniel_152A\FDPaint\sesame.v" Line 111: Result of 32-bit expression is truncated to fit in 10-bit target.
+WARNING:HDLCompiler:413 - "C:\Users\152\Documents\Fay_Daniel_152A\FDPaint\sesame.v" Line 168: Result of 11-bit expression is truncated to fit in 10-bit target.
+WARNING:HDLCompiler:413 - "C:\Users\152\Documents\Fay_Daniel_152A\FDPaint\sesame.v" Line 169: Result of 11-bit expression is truncated to fit in 10-bit target.
+WARNING:HDLCompiler:413 - "C:\Users\152\Documents\Fay_Daniel_152A\FDPaint\sesame.v" Line 170: Result of 32-bit expression is truncated to fit in 10-bit target.
+WARNING:HDLCompiler:413 - "C:\Users\152\Documents\Fay_Daniel_152A\FDPaint\sesame.v" Line 171: Result of 32-bit expression is truncated to fit in 10-bit target.
+WARNING:HDLCompiler:413 - "C:\Users\152\Documents\Fay_Daniel_152A\FDPaint\sesame.v" Line 173: Result of 32-bit expression is truncated to fit in 10-bit target.
+WARNING:HDLCompiler:413 - "C:\Users\152\Documents\Fay_Daniel_152A\FDPaint\sesame.v" Line 174: Result of 32-bit expression is truncated to fit in 10-bit target.
+WARNING:HDLCompiler:413 - "C:\Users\152\Documents\Fay_Daniel_152A\FDPaint\sesame.v" Line 175: Result of 11-bit expression is truncated to fit in 10-bit target.
+WARNING:HDLCompiler:413 - "C:\Users\152\Documents\Fay_Daniel_152A\FDPaint\sesame.v" Line 176: Result of 11-bit expression is truncated to fit in 10-bit target.
+WARNING:HDLCompiler:413 - "C:\Users\152\Documents\Fay_Daniel_152A\FDPaint\sesame.v" Line 300: Result of 32-bit expression is truncated to fit in 16-bit target.
+WARNING:HDLCompiler:413 - "C:\Users\152\Documents\Fay_Daniel_152A\FDPaint\sesame.v" Line 318: Result of 32-bit expression is truncated to fit in 16-bit target.
+WARNING:HDLCompiler:413 - "C:\Users\152\Documents\Fay_Daniel_152A\FDPaint\sesame.v" Line 341: Result of 32-bit expression is truncated to fit in 16-bit target.
+WARNING:HDLCompiler:413 - "C:\Users\152\Documents\Fay_Daniel_152A\FDPaint\sesame.v" Line 363: Result of 32-bit expression is truncated to fit in 10-bit target.
+WARNING:HDLCompiler:413 - "C:\Users\152\Documents\Fay_Daniel_152A\FDPaint\sesame.v" Line 366: Result of 32-bit expression is truncated to fit in 16-bit target.
+
+Elaborating module <pixel_map>.
+WARNING:HDLCompiler:1499 - "C:\Users\152\Documents\Fay_Daniel_152A\FDPaint\ipcore_dir\pixel_map.v" Line 39: Empty module <pixel_map> remains a black box.
+
+Elaborating module <stamp_matt>.
+WARNING:HDLCompiler:1499 - "C:\Users\152\Documents\Fay_Daniel_152A\FDPaint\ipcore_dir\stamp_matt.v" Line 39: Empty module <stamp_matt> remains a black box.
+
+Elaborating module <stamp_penguin>.
+WARNING:HDLCompiler:1499 - "C:\Users\152\Documents\Fay_Daniel_152A\FDPaint\ipcore_dir\stamp_penguin.v" Line 39: Empty module <stamp_penguin> remains a black box.
+
+Elaborating module <stamp_jellyfish>.
+WARNING:HDLCompiler:1499 - "C:\Users\152\Documents\Fay_Daniel_152A\FDPaint\ipcore_dir\stamp_jellyfish.v" Line 39: Empty module <stamp_jellyfish> remains a black box.
+
+Elaborating module <stamp_cat>.
+WARNING:HDLCompiler:1499 - "C:\Users\152\Documents\Fay_Daniel_152A\FDPaint\ipcore_dir\stamp_cat.v" Line 39: Empty module <stamp_cat> remains a black box.
+
+Elaborating module <stamp_taco>.
+WARNING:HDLCompiler:1499 - "C:\Users\152\Documents\Fay_Daniel_152A\FDPaint\ipcore_dir\stamp_taco.v" Line 39: Empty module <stamp_taco> remains a black box.
+
+Elaborating module <stamp_mushroom>.
+WARNING:HDLCompiler:1499 - "C:\Users\152\Documents\Fay_Daniel_152A\FDPaint\ipcore_dir\stamp_mushroom.v" Line 39: Empty module <stamp_mushroom> remains a black box.
+
+Elaborating module <stamp_heart>.
+WARNING:HDLCompiler:1499 - "C:\Users\152\Documents\Fay_Daniel_152A\FDPaint\ipcore_dir\stamp_heart.v" Line 39: Empty module <stamp_heart> remains a black box.
+
+Elaborating module <stamp_pencil>.
+WARNING:HDLCompiler:1499 - "C:\Users\152\Documents\Fay_Daniel_152A\FDPaint\ipcore_dir\stamp_pencil.v" Line 39: Empty module <stamp_pencil> remains a black box.
+WARNING:HDLCompiler:1127 - "C:\Users\152\Documents\Fay_Daniel_152A\FDPaint\sesame.v" Line 502: Assignment to stamp_menu_pixel_7 ignored, since the identifier is never used
+
+Elaborating module <stamp_eraser>.
+WARNING:HDLCompiler:1499 - "C:\Users\152\Documents\Fay_Daniel_152A\FDPaint\ipcore_dir\stamp_eraser.v" Line 39: Empty module <stamp_eraser> remains a black box.
+WARNING:HDLCompiler:1127 - "C:\Users\152\Documents\Fay_Daniel_152A\FDPaint\sesame.v" Line 509: Assignment to stamp_menu_pixel_8 ignored, since the identifier is never used
+
+Elaborating module <joy>.
+
+Elaborating module <joy_control>.
+WARNING:HDLCompiler:413 - "C:\Users\152\Documents\Fay_Daniel_152A\FDPaint\joy_control.v" Line 26: Result of 32-bit expression is truncated to fit in 3-bit target.
+WARNING:HDLCompiler:413 - "C:\Users\152\Documents\Fay_Daniel_152A\FDPaint\joy_control.v" Line 36: Result of 4-bit expression is truncated to fit in 3-bit target.
+WARNING:HDLCompiler:413 - "C:\Users\152\Documents\Fay_Daniel_152A\FDPaint\joy_control.v" Line 47: Result of 32-bit expression is truncated to fit in 3-bit target.
+WARNING:HDLCompiler:413 - "C:\Users\152\Documents\Fay_Daniel_152A\FDPaint\joy_control.v" Line 55: Result of 32-bit expression is truncated to fit in 3-bit target.
+WARNING:HDLCompiler:413 - "C:\Users\152\Documents\Fay_Daniel_152A\FDPaint\joy_control.v" Line 63: Result of 32-bit expression is truncated to fit in 3-bit target.
+
+Elaborating module <joy_interface>.
+WARNING:HDLCompiler:413 - "C:\Users\152\Documents\Fay_Daniel_152A\FDPaint\joy_interface.v" Line 36: Result of 32-bit expression is truncated to fit in 2-bit target.
+WARNING:HDLCompiler:413 - "C:\Users\152\Documents\Fay_Daniel_152A\FDPaint\joy_interface.v" Line 50: Result of 6-bit expression is truncated to fit in 5-bit target.
+WARNING:HDLCompiler:413 - "C:\Users\152\Documents\Fay_Daniel_152A\FDPaint\joy_interface.v" Line 52: Result of 32-bit expression is truncated to fit in 2-bit target.
+
+=========================================================================
+*                           HDL Synthesis                               *
+=========================================================================
+
+Synthesizing Unit <sesame>.
+    Related source file is "C:\Users\152\Documents\Fay_Daniel_152A\FDPaint\sesame.v".
+INFO:Xst:3210 - "C:\Users\152\Documents\Fay_Daniel_152A\FDPaint\sesame.v" line 499: Output port <douta> of the instance <stamp7> is unconnected or connected to loadless signal.
+INFO:Xst:3210 - "C:\Users\152\Documents\Fay_Daniel_152A\FDPaint\sesame.v" line 506: Output port <douta> of the instance <stamp8> is unconnected or connected to loadless signal.
+    Found 1-bit register for signal <clk_vga>.
+    Found 1-bit register for signal <Hsync>.
+    Found 1-bit register for signal <Vsync>.
+    Found 10-bit register for signal <vgaX>.
+    Found 10-bit register for signal <vgaY>.
+    Found 3-bit register for signal <vgaRed>.
+    Found 3-bit register for signal <vgaGreen>.
+    Found 2-bit register for signal <vgaBlue>.
+    Found 10-bit register for signal <stamp_menu_addr>.
+    Found 16-bit register for signal <pmop_addr>.
+    Found 32-bit register for signal <counter_cursor>.
+    Found 1-bit register for signal <clk_cursor>.
+    Found 10-bit register for signal <cursorX>.
+    Found 10-bit register for signal <cursorY>.
+    Found 32-bit register for signal <counter_debounce>.
+    Found 1-bit register for signal <btnRdb>.
+    Found 1-bit register for signal <btnLdb>.
+    Found 1-bit register for signal <btnUdb>.
+    Found 1-bit register for signal <btnDdb>.
+    Found 32-bit register for signal <current_stamp>.
+    Found 32-bit register for signal <pencil_size>.
+    Found 6-bit register for signal <current_tool>.
+    Found 1-bit register for signal <is_resetting>.
+    Found 32-bit register for signal <reset_counter>.
+    Found 1-bit register for signal <is_tool_on>.
+    Found 1-bit register for signal <wea>.
+    Found 8-bit register for signal <dina>.
+    Found 16-bit register for signal <pmin_addr>.
+    Found 32-bit register for signal <pencil_x>.
+    Found 32-bit register for signal <pencil_y>.
+    Found 32-bit register for signal <stamp_x>.
+    Found 32-bit register for signal <stamp_y>.
+    Found 10-bit register for signal <stamp_draw_addr>.
+    Found 1-bit register for signal <counter_vga>.
+    Found finite state machine <FSM_0> for signal <pencil_size>.
+    -----------------------------------------------------------------------
+    | States             | 3                                              |
+    | Transitions        | 13                                             |
+    | Inputs             | 5                                              |
+    | Outputs            | 5                                              |
+    | Clock              | comboLR (rising_edge)                          |
+    | Power Up State     | 00000000000000000000000000000100               |
+    | Encoding           | auto                                           |
+    | Implementation     | LUT                                            |
+    -----------------------------------------------------------------------
+    Found finite state machine <FSM_1> for signal <current_tool>.
+    -----------------------------------------------------------------------
+    | States             | 3                                              |
+    | Transitions        | 12                                             |
+    | Inputs             | 3                                              |
+    | Outputs            | 3                                              |
+    | Clock              | comboUD (rising_edge)                          |
+    | Power Up State     | 000010                                         |
+    | Encoding           | auto                                           |
+    | Implementation     | LUT                                            |
+    -----------------------------------------------------------------------
+    Found 11-bit subtractor for signal <n0370> created at line 61.
+    Found 11-bit subtractor for signal <n0371> created at line 63.
+    Found 11-bit subtractor for signal <GND_1_o_GND_1_o_sub_40_OUT> created at line 109.
+    Found 11-bit subtractor for signal <GND_1_o_GND_1_o_sub_44_OUT> created at line 109.
+    Found 32-bit subtractor for signal <n0661> created at line 111.
+    Found 32-bit subtractor for signal <GND_1_o_GND_1_o_sub_51_OUT> created at line 111.
+    Found 32-bit subtractor for signal <GND_1_o_GND_1_o_sub_61_OUT> created at line 121.
+    Found 32-bit subtractor for signal <GND_1_o_GND_1_o_sub_65_OUT> created at line 121.
+    Found 32-bit subtractor for signal <n0436[31:0]> created at line 123.
+    Found 32-bit subtractor for signal <GND_1_o_GND_1_o_sub_70_OUT> created at line 123.
+    Found 32-bit subtractor for signal <GND_1_o_GND_1_o_sub_76_OUT> created at line 123.
+    Found 32-bit subtractor for signal <current_stamp[31]_GND_1_o_sub_184_OUT> created at line 248.
+    Found 32-bit subtractor for signal <n0701> created at line 318.
+    Found 32-bit subtractor for signal <GND_1_o_GND_1_o_sub_229_OUT> created at line 318.
+    Found 32-bit subtractor for signal <n0717> created at line 366.
+    Found 32-bit subtractor for signal <GND_1_o_GND_1_o_sub_276_OUT> created at line 366.
+    Found 11-bit adder for signal <n0654[10:0]> created at line 91.
+    Found 11-bit adder for signal <n0656[10:0]> created at line 93.
+    Found 11-bit adder for signal <n0592> created at line 109.
+    Found 11-bit adder for signal <n0598> created at line 109.
+    Found 32-bit adder for signal <n0427> created at line 111.
+    Found 32-bit adder for signal <n0608> created at line 121.
+    Found 32-bit adder for signal <n0614> created at line 121.
+    Found 32-bit adder for signal <n0620> created at line 123.
+    Found 32-bit adder for signal <n0626> created at line 123.
+    Found 16-bit adder for signal <GND_1_o_vgaDrawY[9]_add_86_OUT> created at line 131.
+    Found 32-bit adder for signal <counter_cursor[31]_GND_1_o_add_113_OUT> created at line 162.
+    Found 10-bit adder for signal <cursorX[9]_GND_1_o_add_121_OUT> created at line 168.
+    Found 10-bit adder for signal <cursorX[9]_GND_1_o_add_125_OUT> created at line 169.
+    Found 10-bit adder for signal <cursorY[9]_GND_1_o_add_147_OUT> created at line 175.
+    Found 10-bit adder for signal <cursorY[9]_GND_1_o_add_151_OUT> created at line 176.
+    Found 32-bit adder for signal <counter_debounce[31]_GND_1_o_add_164_OUT> created at line 212.
+    Found 32-bit adder for signal <current_stamp[31]_GND_1_o_add_171_OUT> created at line 234.
+    Found 32-bit adder for signal <reset_counter[31]_GND_1_o_add_216_OUT> created at line 301.
+    Found 32-bit adder for signal <GND_1_o_pencil_x[31]_add_225_OUT> created at line 318.
+    Found 32-bit adder for signal <GND_1_o_pencil_y[31]_add_227_OUT> created at line 318.
+    Found 32-bit adder for signal <n0524> created at line 318.
+    Found 32-bit adder for signal <pencil_y[31]_GND_1_o_add_233_OUT> created at line 322.
+    Found 32-bit adder for signal <pencil_x[31]_GND_1_o_add_234_OUT> created at line 325.
+    Found 32-bit adder for signal <n0546> created at line 363.
+    Found 32-bit adder for signal <GND_1_o_stamp_x[31]_add_272_OUT> created at line 366.
+    Found 32-bit adder for signal <GND_1_o_stamp_y[31]_add_274_OUT> created at line 366.
+    Found 32-bit adder for signal <n0552> created at line 366.
+    Found 32-bit adder for signal <stamp_y[31]_GND_1_o_add_279_OUT> created at line 370.
+    Found 32-bit adder for signal <stamp_x[31]_GND_1_o_add_280_OUT> created at line 373.
+    Found 10-bit subtractor for signal <GND_1_o_GND_1_o_sub_131_OUT<9:0>> created at line 170.
+    Found 10-bit subtractor for signal <GND_1_o_GND_1_o_sub_134_OUT<9:0>> created at line 171.
+    Found 10-bit subtractor for signal <GND_1_o_GND_1_o_sub_139_OUT<9:0>> created at line 173.
+    Found 10-bit subtractor for signal <GND_1_o_GND_1_o_sub_142_OUT<9:0>> created at line 174.
+    Found 32x5-bit multiplier for signal <n0426> created at line 111.
+    Found 10x10-bit multiplier for signal <n0445> created at line 131.
+    Found 10x10-bit multiplier for signal <drawAreaWidth[9]_drawAreaHeight[9]_MuLt_214_OUT> created at line 291.
+    Found 32x10-bit multiplier for signal <n0523> created at line 318.
+    Found 32x5-bit multiplier for signal <n0545> created at line 363.
+    Found 32x10-bit multiplier for signal <n0551> created at line 366.
+    Found 8-bit 7-to-1 multiplexer for signal <_n0757> created at line 401.
+    Found 8-bit 7-to-1 multiplexer for signal <_n0760> created at line 403.
+    Found 10-bit comparator lessequal for signal <n0008> created at line 67
+    Found 12-bit comparator greater for signal <GND_1_o_BUS_0001_LessThan_13_o> created at line 67
+    Found 10-bit comparator greater for signal <n0013> created at line 68
+    Found 12-bit comparator greater for signal <GND_1_o_BUS_0002_LessThan_16_o> created at line 68
+    Found 10-bit comparator lessequal for signal <n0019> created at line 71
+    Found 10-bit comparator greater for signal <vgaX[9]_PWR_1_o_LessThan_18_o> created at line 71
+    Found 10-bit comparator greater for signal <vgaY[9]_PWR_1_o_LessThan_20_o> created at line 71
+    Found 10-bit comparator lessequal for signal <n0032> created at line 89
+    Found 10-bit comparator greater for signal <vgaX[9]_GND_1_o_LessThan_25_o> created at line 89
+    Found 10-bit comparator lessequal for signal <n0037> created at line 90
+    Found 10-bit comparator greater for signal <vgaY[9]_GND_1_o_LessThan_27_o> created at line 90
+    Found 32-bit comparator lessequal for signal <n0056> created at line 109
+    Found 11-bit comparator greater for signal <GND_1_o_BUS_0005_LessThan_43_o> created at line 109
+    Found 32-bit comparator lessequal for signal <n0063> created at line 109
+    Found 11-bit comparator greater for signal <GND_1_o_BUS_0006_LessThan_47_o> created at line 109
+    Found 32-bit comparator lessequal for signal <n0080> created at line 121
+    Found 32-bit comparator greater for signal <GND_1_o_BUS_0009_LessThan_64_o> created at line 121
+    Found 32-bit comparator lessequal for signal <n0086> created at line 121
+    Found 32-bit comparator greater for signal <GND_1_o_BUS_0010_LessThan_68_o> created at line 121
+    Found 32-bit comparator lessequal for signal <n0094> created at line 123
+    Found 32-bit comparator greater for signal <GND_1_o_BUS_0011_LessThan_74_o> created at line 123
+    Found 32-bit comparator lessequal for signal <n0100> created at line 123
+    Found 32-bit comparator greater for signal <GND_1_o_BUS_0012_LessThan_80_o> created at line 123
+    Found 10-bit comparator greater for signal <joystick_x[9]_GND_1_o_LessThan_119_o> created at line 168
+    Found 32-bit comparator greater for signal <GND_1_o_GND_1_o_LessThan_121_o> created at line 168
+    Found 10-bit comparator greater for signal <joystick_x[9]_GND_1_o_LessThan_123_o> created at line 169
+    Found 32-bit comparator greater for signal <GND_1_o_GND_1_o_LessThan_125_o> created at line 169
+    Found 10-bit comparator greater for signal <PWR_1_o_joystick_x[9]_LessThan_129_o> created at line 170
+    Found 10-bit comparator greater for signal <GND_1_o_cursorX[9]_LessThan_130_o> created at line 170
+    Found 10-bit comparator greater for signal <PWR_1_o_joystick_x[9]_LessThan_132_o> created at line 171
+    Found 10-bit comparator greater for signal <GND_1_o_cursorX[9]_LessThan_133_o> created at line 171
+    Found 10-bit comparator greater for signal <joystick_y[9]_GND_1_o_LessThan_137_o> created at line 173
+    Found 10-bit comparator greater for signal <GND_1_o_cursorY[9]_LessThan_138_o> created at line 173
+    Found 10-bit comparator greater for signal <joystick_y[9]_GND_1_o_LessThan_140_o> created at line 174
+    Found 10-bit comparator greater for signal <GND_1_o_cursorY[9]_LessThan_141_o> created at line 174
+    Found 10-bit comparator greater for signal <PWR_1_o_joystick_y[9]_LessThan_145_o> created at line 175
+    Found 32-bit comparator greater for signal <GND_1_o_GND_1_o_LessThan_147_o> created at line 175
+    Found 10-bit comparator greater for signal <PWR_1_o_joystick_y[9]_LessThan_149_o> created at line 176
+    Found 32-bit comparator greater for signal <GND_1_o_GND_1_o_LessThan_151_o> created at line 176
+    Found 32-bit comparator equal for signal <reset_counter[31]_GND_1_o_equal_216_o> created at line 291
+    Found 32-bit comparator equal for signal <pencil_y[31]_pencil_size[31]_equal_225_o> created at line 307
+    Found 32-bit comparator equal for signal <pencil_x[31]_pencil_size[31]_equal_233_o> created at line 319
+    Summary:
+	inferred   6 Multiplier(s).
+	inferred  43 Adder/Subtractor(s).
+	inferred 376 D-type flip-flop(s).
+	inferred  42 Comparator(s).
+	inferred  74 Multiplexer(s).
+	inferred   2 Finite State Machine(s).
+Unit <sesame> synthesized.
+
+Synthesizing Unit <joy>.
+    Related source file is "C:\Users\152\Documents\Fay_Daniel_152A\FDPaint\joy.v".
+    Found 1-bit register for signal <clk_joy>.
+    Found 32-bit register for signal <counter_joy>.
+    Found 32-bit adder for signal <counter_joy[31]_GND_15_o_add_2_OUT> created at line 20.
+    Summary:
+	inferred   1 Adder/Subtractor(s).
+	inferred  33 D-type flip-flop(s).
+Unit <joy> synthesized.
+
+Synthesizing Unit <joy_control>.
+    Related source file is "C:\Users\152\Documents\Fay_Daniel_152A\FDPaint\joy_control.v".
+    Found 1-bit register for signal <getByte>.
+    Found 40-bit register for signal <DOUT>.
+    Found 3-bit register for signal <pState>.
+    Found 40-bit register for signal <tmpSR>.
+    Found 3-bit register for signal <byteCnt>.
+    Found 1-bit register for signal <SS>.
+    Found 3-bit adder for signal <byteCnt[2]_GND_16_o_add_2_OUT> created at line 36.
+    Summary:
+	inferred   1 Adder/Subtractor(s).
+	inferred  88 D-type flip-flop(s).
+	inferred  10 Multiplexer(s).
+Unit <joy_control> synthesized.
+
+Synthesizing Unit <joy_interface>.
+    Related source file is "C:\Users\152\Documents\Fay_Daniel_152A\FDPaint\joy_interface.v".
+    Found 1-bit register for signal <CE>.
+    Found 1-bit register for signal <BUSY>.
+    Found 5-bit register for signal <bitCount>.
+    Found 2-bit register for signal <pState>.
+    Found 8-bit register for signal <rSR>.
+    Found 5-bit adder for signal <bitCount[4]_GND_17_o_add_8_OUT> created at line 50.
+    Found 4x1-bit Read Only RAM for signal <pState[1]_PWR_16_o_Mux_13_o>
+    Found 2-bit 4-to-1 multiplexer for signal <pState[1]_GND_17_o_wide_mux_15_OUT> created at line 30.
+    Found 5-bit comparator greater for signal <bitCount[4]_GND_17_o_LessThan_10_o> created at line 51
+    Summary:
+	inferred   1 RAM(s).
+	inferred   1 Adder/Subtractor(s).
+	inferred  17 D-type flip-flop(s).
+	inferred   1 Comparator(s).
+	inferred   2 Multiplexer(s).
+Unit <joy_interface> synthesized.
+
+=========================================================================
+HDL Synthesis Report
+
+Macro Statistics
+# RAMs                                                 : 1
+ 4x1-bit single-port Read Only RAM                     : 1
+# Multipliers                                          : 6
+ 10x10-bit multiplier                                  : 2
+ 32x10-bit multiplier                                  : 2
+ 32x5-bit multiplier                                   : 2
+# Adders/Subtractors                                   : 46
+ 10-bit addsub                                         : 2
+ 11-bit adder                                          : 4
+ 11-bit subtractor                                     : 4
+ 16-bit adder                                          : 1
+ 3-bit adder                                           : 1
+ 32-bit adder                                          : 21
+ 32-bit subtractor                                     : 12
+ 5-bit adder                                           : 1
+# Registers                                            : 45
+ 1-bit register                                        : 17
+ 10-bit register                                       : 6
+ 16-bit register                                       : 2
+ 2-bit register                                        : 2
+ 3-bit register                                        : 4
+ 32-bit register                                       : 9
+ 40-bit register                                       : 2
+ 5-bit register                                        : 1
+ 8-bit register                                        : 2
+# Comparators                                          : 43
+ 10-bit comparator greater                             : 17
+ 10-bit comparator lessequal                           : 4
+ 11-bit comparator greater                             : 2
+ 12-bit comparator greater                             : 2
+ 32-bit comparator equal                               : 3
+ 32-bit comparator greater                             : 8
+ 32-bit comparator lessequal                           : 6
+ 5-bit comparator greater                              : 1
+# Multiplexers                                         : 86
+ 1-bit 2-to-1 multiplexer                              : 14
+ 10-bit 2-to-1 multiplexer                             : 6
+ 16-bit 2-to-1 multiplexer                             : 14
+ 2-bit 2-to-1 multiplexer                              : 5
+ 2-bit 4-to-1 multiplexer                              : 1
+ 3-bit 2-to-1 multiplexer                              : 15
+ 32-bit 2-to-1 multiplexer                             : 13
+ 40-bit 2-to-1 multiplexer                             : 1
+ 8-bit 2-to-1 multiplexer                              : 15
+ 8-bit 7-to-1 multiplexer                              : 2
+# FSMs                                                 : 2
+
+=========================================================================
+INFO:Xst:1767 - HDL ADVISOR - Resource sharing has identified that some arithmetic operations in this design can share the same physical resources for reduced device utilization. For improved clock frequency you may try to disable resource sharing.
+
+=========================================================================
+*                       Advanced HDL Synthesis                          *
+=========================================================================
+
+Reading core <ipcore_dir/pixel_map.ngc>.
+Reading core <ipcore_dir/stamp_matt.ngc>.
+Reading core <ipcore_dir/stamp_penguin.ngc>.
+Reading core <ipcore_dir/stamp_jellyfish.ngc>.
+Reading core <ipcore_dir/stamp_cat.ngc>.
+Reading core <ipcore_dir/stamp_taco.ngc>.
+Reading core <ipcore_dir/stamp_mushroom.ngc>.
+Reading core <ipcore_dir/stamp_heart.ngc>.
+Reading core <ipcore_dir/stamp_pencil.ngc>.
+Reading core <ipcore_dir/stamp_eraser.ngc>.
+Loading core <pixel_map> for timing and area information for instance <pixel_map>.
+Loading core <stamp_matt> for timing and area information for instance <stamp0>.
+Loading core <stamp_penguin> for timing and area information for instance <stamp1>.
+Loading core <stamp_jellyfish> for timing and area information for instance <stamp2>.
+Loading core <stamp_cat> for timing and area information for instance <stamp3>.
+Loading core <stamp_taco> for timing and area information for instance <stamp4>.
+Loading core <stamp_mushroom> for timing and area information for instance <stamp5>.
+Loading core <stamp_heart> for timing and area information for instance <stamp6>.
+Loading core <stamp_pencil> for timing and area information for instance <stamp7>.
+Loading core <stamp_eraser> for timing and area information for instance <stamp8>.
+WARNING:Xst:2677 - Node <DOUT_0> of sequential type is unconnected in block <jc>.
+WARNING:Xst:2677 - Node <DOUT_1> of sequential type is unconnected in block <jc>.
+WARNING:Xst:2677 - Node <DOUT_3> of sequential type is unconnected in block <jc>.
+WARNING:Xst:2677 - Node <DOUT_4> of sequential type is unconnected in block <jc>.
+WARNING:Xst:2677 - Node <DOUT_5> of sequential type is unconnected in block <jc>.
+WARNING:Xst:2677 - Node <DOUT_6> of sequential type is unconnected in block <jc>.
+WARNING:Xst:2677 - Node <DOUT_7> of sequential type is unconnected in block <jc>.
+WARNING:Xst:2677 - Node <DOUT_10> of sequential type is unconnected in block <jc>.
+WARNING:Xst:2677 - Node <DOUT_11> of sequential type is unconnected in block <jc>.
+WARNING:Xst:2677 - Node <DOUT_12> of sequential type is unconnected in block <jc>.
+WARNING:Xst:2677 - Node <DOUT_13> of sequential type is unconnected in block <jc>.
+WARNING:Xst:2677 - Node <DOUT_14> of sequential type is unconnected in block <jc>.
+WARNING:Xst:2677 - Node <DOUT_15> of sequential type is unconnected in block <jc>.
+WARNING:Xst:2677 - Node <DOUT_26> of sequential type is unconnected in block <jc>.
+WARNING:Xst:2677 - Node <DOUT_27> of sequential type is unconnected in block <jc>.
+WARNING:Xst:2677 - Node <DOUT_28> of sequential type is unconnected in block <jc>.
+WARNING:Xst:2677 - Node <DOUT_29> of sequential type is unconnected in block <jc>.
+WARNING:Xst:2677 - Node <DOUT_30> of sequential type is unconnected in block <jc>.
+WARNING:Xst:2677 - Node <DOUT_31> of sequential type is unconnected in block <jc>.
+
+Synthesizing (advanced) Unit <joy>.
+The following registers are absorbed into counter <counter_joy>: 1 register on signal <counter_joy>.
+Unit <joy> synthesized (advanced).
+
+Synthesizing (advanced) Unit <joy_control>.
+The following registers are absorbed into counter <byteCnt>: 1 register on signal <byteCnt>.
+Unit <joy_control> synthesized (advanced).
+
+Synthesizing (advanced) Unit <joy_interface>.
+The following registers are absorbed into counter <bitCount>: 1 register on signal <bitCount>.
+INFO:Xst:3231 - The small RAM <Mram_pState[1]_PWR_16_o_Mux_13_o> will be implemented on LUTs in order to maximize performance and save block RAM resources. If you want to force its implementation on block, use option/constraint ram_style.
+    -----------------------------------------------------------------------
+    | ram_type           | Distributed                         |          |
+    -----------------------------------------------------------------------
+    | Port A                                                              |
+    |     aspect ratio   | 4-word x 1-bit                      |          |
+    |     weA            | connected to signal <GND>           | high     |
+    |     addrA          | connected to signal <pState>        |          |
+    |     diA            | connected to signal <GND>           |          |
+    |     doA            | connected to internal node          |          |
+    -----------------------------------------------------------------------
+Unit <joy_interface> synthesized (advanced).
+
+Synthesizing (advanced) Unit <sesame>.
+The following registers are absorbed into accumulator <cursorX>: 1 register on signal <cursorX>.
+The following registers are absorbed into accumulator <cursorY>: 1 register on signal <cursorY>.
+The following registers are absorbed into counter <counter_cursor>: 1 register on signal <counter_cursor>.
+The following registers are absorbed into counter <counter_debounce>: 1 register on signal <counter_debounce>.
+The following registers are absorbed into counter <stamp_x>: 1 register on signal <stamp_x>.
+The following registers are absorbed into counter <stamp_y>: 1 register on signal <stamp_y>.
+The following registers are absorbed into counter <vgaX>: 1 register on signal <vgaX>.
+	The following adders/subtractors are grouped into adder tree <Madd_n0524_Madd1> :
+ 	<Madd_GND_1_o_pencil_x[31]_add_225_OUT_Madd> in block <sesame>, 	<Msub_n0701_Madd> in block <sesame>, 	<Madd_n0524_Madd> in block <sesame>.
+	Multiplier <Mmult_n0445> in block <sesame> and adder/subtractor <Madd_GND_1_o_vgaDrawY[9]_add_86_OUT> in block <sesame> are combined into a MAC<Maddsub_n0445>.
+	The following registers are also absorbed by the MAC: <pmop_addr> in block <sesame>.
+Unit <sesame> synthesized (advanced).
+
+=========================================================================
+Advanced HDL Synthesis Report
+
+Macro Statistics
+# RAMs                                                 : 1
+ 4x1-bit single-port distributed Read Only RAM         : 1
+# MACs                                                 : 1
+ 10x9-to-16-bit MAC                                    : 1
+# Multipliers                                          : 5
+ 32x5-bit multiplier                                   : 2
+ 32x9-bit multiplier                                   : 2
+ 9x9-bit multiplier                                    : 1
+# Adders/Subtractors                                   : 33
+ 10-bit adder                                          : 2
+ 10-bit subtractor                                     : 1
+ 11-bit adder                                          : 3
+ 11-bit subtractor                                     : 4
+ 16-bit adder                                          : 3
+ 16-bit subtractor                                     : 1
+ 32-bit adder                                          : 10
+ 32-bit subtractor                                     : 9
+# Adder Trees                                          : 1
+ 16-bit / 3-inputs adder tree                          : 1
+# Counters                                             : 8
+ 10-bit up counter                                     : 1
+ 3-bit up counter                                      : 1
+ 32-bit up counter                                     : 5
+ 5-bit up counter                                      : 1
+# Accumulators                                         : 2
+ 10-bit updown accumulator                             : 2
+# Registers                                            : 300
+ Flip-Flops                                            : 300
+# Comparators                                          : 43
+ 10-bit comparator greater                             : 17
+ 10-bit comparator lessequal                           : 4
+ 11-bit comparator greater                             : 2
+ 12-bit comparator greater                             : 2
+ 32-bit comparator equal                               : 3
+ 32-bit comparator greater                             : 8
+ 32-bit comparator lessequal                           : 6
+ 5-bit comparator greater                              : 1
+# Multiplexers                                         : 84
+ 1-bit 2-to-1 multiplexer                              : 14
+ 10-bit 2-to-1 multiplexer                             : 6
+ 16-bit 2-to-1 multiplexer                             : 14
+ 2-bit 2-to-1 multiplexer                              : 5
+ 2-bit 4-to-1 multiplexer                              : 1
+ 3-bit 2-to-1 multiplexer                              : 14
+ 32-bit 2-to-1 multiplexer                             : 12
+ 40-bit 2-to-1 multiplexer                             : 1
+ 8-bit 2-to-1 multiplexer                              : 15
+ 8-bit 7-to-1 multiplexer                              : 2
+# FSMs                                                 : 2
+
+=========================================================================
+
+=========================================================================
+*                         Low Level Synthesis                           *
+=========================================================================
+Analyzing FSM <MFsm> for best encoding.
+Optimizing FSM <FSM_1> on signal <current_tool[1:2]> with sequential encoding.
+--------------------
+ State  | Encoding
+--------------------
+ 000010 | 00
+ 000100 | 01
+ 000011 | 10
+--------------------
+Analyzing FSM <MFsm> for best encoding.
+Optimizing FSM <FSM_0> on signal <pencil_size[1:2]> with sequential encoding.
+----------------------------------------------
+ State                            | Encoding
+----------------------------------------------
+ 00000000000000000000000000000100 | 00
+ 00000000000000000000000000000010 | 01
+ 00000000000000000000000000000110 | 10
+----------------------------------------------
+WARNING:Xst:2677 - Node <Mmult_n05231> of sequential type is unconnected in block <sesame>.
+WARNING:Xst:2677 - Node <Mmult_n05511> of sequential type is unconnected in block <sesame>.
+WARNING:Xst:2677 - Node <Mmult_n05451> of sequential type is unconnected in block <sesame>.
+WARNING:Xst:2677 - Node <Mmult_n04261> of sequential type is unconnected in block <sesame>.
+
+Optimizing unit <sesame> ...
+
+Optimizing unit <joy_control> ...
+
+Optimizing unit <joy_interface> ...
+WARNING:Xst:2677 - Node <joy/jc/DOUT_31> of sequential type is unconnected in block <sesame>.
+WARNING:Xst:2677 - Node <joy/jc/DOUT_30> of sequential type is unconnected in block <sesame>.
+WARNING:Xst:2677 - Node <joy/jc/DOUT_29> of sequential type is unconnected in block <sesame>.
+WARNING:Xst:2677 - Node <joy/jc/DOUT_28> of sequential type is unconnected in block <sesame>.
+WARNING:Xst:2677 - Node <joy/jc/DOUT_27> of sequential type is unconnected in block <sesame>.
+WARNING:Xst:2677 - Node <joy/jc/DOUT_26> of sequential type is unconnected in block <sesame>.
+WARNING:Xst:2677 - Node <joy/jc/DOUT_15> of sequential type is unconnected in block <sesame>.
+WARNING:Xst:2677 - Node <joy/jc/DOUT_14> of sequential type is unconnected in block <sesame>.
+WARNING:Xst:2677 - Node <joy/jc/DOUT_13> of sequential type is unconnected in block <sesame>.
+WARNING:Xst:2677 - Node <joy/jc/DOUT_12> of sequential type is unconnected in block <sesame>.
+WARNING:Xst:2677 - Node <joy/jc/DOUT_11> of sequential type is unconnected in block <sesame>.
+WARNING:Xst:2677 - Node <joy/jc/DOUT_10> of sequential type is unconnected in block <sesame>.
+WARNING:Xst:2677 - Node <joy/jc/DOUT_7> of sequential type is unconnected in block <sesame>.
+WARNING:Xst:2677 - Node <joy/jc/DOUT_6> of sequential type is unconnected in block <sesame>.
+WARNING:Xst:2677 - Node <joy/jc/DOUT_5> of sequential type is unconnected in block <sesame>.
+WARNING:Xst:2677 - Node <joy/jc/DOUT_4> of sequential type is unconnected in block <sesame>.
+WARNING:Xst:2677 - Node <joy/jc/DOUT_3> of sequential type is unconnected in block <sesame>.
+WARNING:Xst:2677 - Node <joy/jc/DOUT_1> of sequential type is unconnected in block <sesame>.
+WARNING:Xst:2677 - Node <joy/jc/DOUT_0> of sequential type is unconnected in block <sesame>.
+WARNING:Xst:1293 - FF/Latch <stamp_y_14> has a constant value of 0 in block <sesame>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <stamp_y_13> has a constant value of 0 in block <sesame>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <stamp_y_12> has a constant value of 0 in block <sesame>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <stamp_y_11> has a constant value of 0 in block <sesame>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <stamp_y_10> has a constant value of 0 in block <sesame>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <stamp_y_9> has a constant value of 0 in block <sesame>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <stamp_y_8> has a constant value of 0 in block <sesame>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <stamp_y_7> has a constant value of 0 in block <sesame>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <stamp_y_6> has a constant value of 0 in block <sesame>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <stamp_y_5> has a constant value of 0 in block <sesame>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <counter_debounce_31> has a constant value of 0 in block <sesame>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <counter_debounce_30> has a constant value of 0 in block <sesame>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <counter_debounce_29> has a constant value of 0 in block <sesame>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <counter_debounce_28> has a constant value of 0 in block <sesame>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <counter_debounce_27> has a constant value of 0 in block <sesame>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <counter_debounce_26> has a constant value of 0 in block <sesame>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <counter_debounce_25> has a constant value of 0 in block <sesame>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <stamp_y_31> has a constant value of 0 in block <sesame>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <stamp_y_30> has a constant value of 0 in block <sesame>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <stamp_y_29> has a constant value of 0 in block <sesame>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <stamp_y_28> has a constant value of 0 in block <sesame>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <stamp_y_27> has a constant value of 0 in block <sesame>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <stamp_y_26> has a constant value of 0 in block <sesame>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <stamp_y_25> has a constant value of 0 in block <sesame>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <stamp_y_24> has a constant value of 0 in block <sesame>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <stamp_y_23> has a constant value of 0 in block <sesame>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <stamp_y_22> has a constant value of 0 in block <sesame>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <stamp_y_21> has a constant value of 0 in block <sesame>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <stamp_y_20> has a constant value of 0 in block <sesame>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <stamp_y_19> has a constant value of 0 in block <sesame>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <stamp_y_18> has a constant value of 0 in block <sesame>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <stamp_y_17> has a constant value of 0 in block <sesame>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <stamp_y_16> has a constant value of 0 in block <sesame>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <stamp_y_15> has a constant value of 0 in block <sesame>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <stamp_x_21> has a constant value of 0 in block <sesame>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <stamp_x_20> has a constant value of 0 in block <sesame>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <stamp_x_19> has a constant value of 0 in block <sesame>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <stamp_x_18> has a constant value of 0 in block <sesame>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <stamp_x_17> has a constant value of 0 in block <sesame>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <stamp_x_16> has a constant value of 0 in block <sesame>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <stamp_x_15> has a constant value of 0 in block <sesame>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <stamp_x_14> has a constant value of 0 in block <sesame>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <stamp_x_13> has a constant value of 0 in block <sesame>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <stamp_x_12> has a constant value of 0 in block <sesame>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <stamp_x_11> has a constant value of 0 in block <sesame>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <stamp_x_10> has a constant value of 0 in block <sesame>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <stamp_x_9> has a constant value of 0 in block <sesame>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <stamp_x_8> has a constant value of 0 in block <sesame>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <stamp_x_7> has a constant value of 0 in block <sesame>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <stamp_x_6> has a constant value of 0 in block <sesame>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <stamp_x_5> has a constant value of 0 in block <sesame>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <counter_debounce_24> has a constant value of 0 in block <sesame>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <counter_debounce_23> has a constant value of 0 in block <sesame>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <counter_debounce_22> has a constant value of 0 in block <sesame>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <counter_debounce_21> has a constant value of 0 in block <sesame>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <counter_debounce_20> has a constant value of 0 in block <sesame>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <counter_debounce_19> has a constant value of 0 in block <sesame>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <counter_debounce_18> has a constant value of 0 in block <sesame>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <stamp_x_31> has a constant value of 0 in block <sesame>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <stamp_x_30> has a constant value of 0 in block <sesame>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <stamp_x_29> has a constant value of 0 in block <sesame>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <stamp_x_28> has a constant value of 0 in block <sesame>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <stamp_x_27> has a constant value of 0 in block <sesame>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <stamp_x_26> has a constant value of 0 in block <sesame>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <stamp_x_25> has a constant value of 0 in block <sesame>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <stamp_x_24> has a constant value of 0 in block <sesame>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <stamp_x_23> has a constant value of 0 in block <sesame>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <stamp_x_22> has a constant value of 0 in block <sesame>. This FF/Latch will be trimmed during the optimization process.
+
+Mapping all equations...
+Building and optimizing final netlist ...
+Found area constraint ratio of 100 (+ 5) on block sesame, actual ratio is 16.
+
+Final Macro Processing ...
+
+=========================================================================
+Final Register Report
+
+Macro Statistics
+# Registers                                            : 415
+ Flip-Flops                                            : 415
+
+=========================================================================
+
+=========================================================================
+*                           Partition Report                            *
+=========================================================================
+
+Partition Implementation Status
+-------------------------------
+
+  No Partitions were found in this design.
+
+-------------------------------
+
+=========================================================================
+*                            Design Summary                             *
+=========================================================================
+
+Top Level Output File Name         : sesame.ngc
+
+Primitive and Black Box Usage:
+------------------------------
+# BELS                             : 2306
+#      GND                         : 11
+#      INV                         : 87
+#      LUT1                        : 262
+#      LUT2                        : 165
+#      LUT3                        : 190
+#      LUT4                        : 172
+#      LUT5                        : 158
+#      LUT6                        : 190
+#      MUXCY                       : 555
+#      MUXF7                       : 1
+#      VCC                         : 11
+#      XORCY                       : 504
+# FlipFlops/Latches                : 421
+#      FD                          : 11
+#      FD_1                        : 3
+#      FDE                         : 147
+#      FDE_1                       : 66
+#      FDR                         : 107
+#      FDR_1                       : 1
+#      FDRE                        : 85
+#      FDSE                        : 1
+# RAMS                             : 42
+#      RAMB16BWER                  : 24
+#      RAMB8BWER                   : 18
+# Clock Buffers                    : 5
+#      BUFG                        : 4
+#      BUFGP                       : 1
+# IO Buffers                       : 27
+#      IBUF                        : 14
+#      OBUF                        : 13
+# DSPs                             : 5
+#      DSP48A1                     : 5
+
+Device utilization summary:
+---------------------------
+
+Selected Device : 6slx16csg324-2 
+
+
+Slice Logic Utilization: 
+ Number of Slice Registers:             417  out of  18224     2%  
+ Number of Slice LUTs:                 1224  out of   9112    13%  
+    Number used as Logic:              1224  out of   9112    13%  
+
+Slice Logic Distribution: 
+ Number of LUT Flip Flop pairs used:   1269
+   Number with an unused Flip Flop:     852  out of   1269    67%  
+   Number with an unused LUT:            45  out of   1269     3%  
+   Number of fully used LUT-FF pairs:   372  out of   1269    29%  
+   Number of unique control sets:        38
+
+IO Utilization: 
+ Number of IOs:                          28
+ Number of bonded IOBs:                  28  out of    232    12%  
+    IOB Flip Flops/Latches:               4
+
+Specific Feature Utilization:
+ Number of Block RAM/FIFO:               33  out of     32   103% (*) 
+    Number using Block RAM only:         33
+ Number of BUFG/BUFGCTRLs:                5  out of     16    31%  
+ Number of DSP48A1s:                      5  out of     32    15%  
+
+WARNING:Xst:1336 -  (*) More than 100% of Device resources are used
+
+---------------------------
+Partition Resource Summary:
+---------------------------
+
+  No Partitions were found in this design.
+
+---------------------------
+
+
+=========================================================================
+Timing Report
+
+NOTE: THESE TIMING NUMBERS ARE ONLY A SYNTHESIS ESTIMATE.
+      FOR ACCURATE TIMING INFORMATION PLEASE REFER TO THE TRACE REPORT
+      GENERATED AFTER PLACE-and-ROUTE.
+
+Clock Information:
+------------------
+-----------------------------------+--------------------------------------------------------------------------------------------------------------------------------+-------+
+Clock Signal                       | Clock buffer(FF name)                                                                                                          | Load  |
+-----------------------------------+--------------------------------------------------------------------------------------------------------------------------------+-------+
+clk                                | BUFGP                                                                                                                          | 276   |
+clk_debounce(clk_debounce<31>4:O)  | NONE(*)(btnUdb)                                                                                                                | 4     |
+counter_vga                        | NONE(clk_vga)                                                                                                                  | 1     |
+clk_vga                            | BUFG                                                                                                                           | 41    |
+comboLR(comboLR1:O)                | BUFG(*)(current_stamp_0)                                                                                                       | 34    |
+comboUD(comboUD1:O)                | NONE(*)(current_tool_FSM_FFd2)                                                                                                 | 2     |
+clk_cursor                         | BUFG                                                                                                                           | 20    |
+joy/clk_joy                        | BUFG                                                                                                                           | 86    |
+stamp7/N1                          | NONE(stamp7/U0/xst_blk_mem_generator/gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[0].ram.r/s6_init.ram/SP.SIMPLE_PRIM9.ram)| 1     |
+stamp8/N1                          | NONE(stamp8/U0/xst_blk_mem_generator/gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[0].ram.r/s6_init.ram/SP.SIMPLE_PRIM9.ram)| 1     |
+-----------------------------------+--------------------------------------------------------------------------------------------------------------------------------+-------+
+(*) These 3 clock signal(s) are generated by combinatorial logic,
+and XST is not able to identify which are the primary clock signals.
+Please use the CLOCK_SIGNAL constraint to specify the clock signal(s) generated by combinatorial logic.
+INFO:Xst:2169 - HDL ADVISOR - Some clock signals were not automatically buffered by XST with BUFG/BUFR resources. Please use the buffer_type constraint in order to insert these buffers to the clock signals to help prevent skew problems.
+
+Asynchronous Control Signals Information:
+----------------------------------------
+No asynchronous control signals found in this design
+
+Timing Summary:
+---------------
+Speed Grade: -2
+
+   Minimum period: 12.904ns (Maximum Frequency: 77.494MHz)
+   Minimum input arrival time before clock: 4.169ns
+   Maximum output required time after clock: 5.202ns
+   Maximum combinational path delay: No path found
+
+Timing Details:
+---------------
+All values displayed in nanoseconds (ns)
+
+=========================================================================
+Timing constraint: Default period analysis for Clock 'clk'
+  Clock period: 12.904ns (frequency: 77.494MHz)
+  Total number of paths / destination ports: 1558639 / 1215
+-------------------------------------------------------------------------
+Delay:               12.904ns (Levels of Logic = 38)
+  Source:            pencil_y_1 (FF)
+  Destination:       pmin_addr_15 (FF)
+  Source Clock:      clk rising
+  Destination Clock: clk rising
+
+  Data Path: pencil_y_1 to pmin_addr_15
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     FDRE:C->Q             4   0.525   0.912  pencil_y_1 (pencil_y_1)
+     LUT3:I1->O            1   0.250   0.682  Msub_GND_1_o_GND_1_o_sub_229_OUT1 (Msub_GND_1_o_GND_1_o_sub_229_OUT1)
+     LUT3:I2->O            1   0.254   0.000  Msub_GND_1_o_GND_1_o_sub_229_OUT_lut<0>2 (Msub_GND_1_o_GND_1_o_sub_229_OUT_lut<0>2)
+     MUXCY:S->O            1   0.215   0.000  Msub_GND_1_o_GND_1_o_sub_229_OUT_cy<0>_1 (Msub_GND_1_o_GND_1_o_sub_229_OUT_cy<0>2)
+     MUXCY:CI->O           1   0.023   0.000  Msub_GND_1_o_GND_1_o_sub_229_OUT_cy<0>_2 (Msub_GND_1_o_GND_1_o_sub_229_OUT_cy<0>3)
+     MUXCY:CI->O           1   0.023   0.000  Msub_GND_1_o_GND_1_o_sub_229_OUT_cy<0>_3 (Msub_GND_1_o_GND_1_o_sub_229_OUT_cy<0>4)
+     MUXCY:CI->O           1   0.023   0.000  Msub_GND_1_o_GND_1_o_sub_229_OUT_cy<0>_4 (Msub_GND_1_o_GND_1_o_sub_229_OUT_cy<0>5)
+     MUXCY:CI->O           1   0.023   0.000  Msub_GND_1_o_GND_1_o_sub_229_OUT_cy<0>_5 (Msub_GND_1_o_GND_1_o_sub_229_OUT_cy<0>6)
+     MUXCY:CI->O           1   0.023   0.000  Msub_GND_1_o_GND_1_o_sub_229_OUT_cy<0>_6 (Msub_GND_1_o_GND_1_o_sub_229_OUT_cy<0>7)
+     MUXCY:CI->O           1   0.023   0.000  Msub_GND_1_o_GND_1_o_sub_229_OUT_cy<0>_7 (Msub_GND_1_o_GND_1_o_sub_229_OUT_cy<0>8)
+     MUXCY:CI->O           1   0.023   0.000  Msub_GND_1_o_GND_1_o_sub_229_OUT_cy<0>_8 (Msub_GND_1_o_GND_1_o_sub_229_OUT_cy<0>9)
+     MUXCY:CI->O           1   0.023   0.000  Msub_GND_1_o_GND_1_o_sub_229_OUT_cy<0>_9 (Msub_GND_1_o_GND_1_o_sub_229_OUT_cy<0>10)
+     MUXCY:CI->O           1   0.023   0.000  Msub_GND_1_o_GND_1_o_sub_229_OUT_cy<0>_10 (Msub_GND_1_o_GND_1_o_sub_229_OUT_cy<0>11)
+     MUXCY:CI->O           1   0.023   0.000  Msub_GND_1_o_GND_1_o_sub_229_OUT_cy<0>_11 (Msub_GND_1_o_GND_1_o_sub_229_OUT_cy<0>12)
+     MUXCY:CI->O           1   0.023   0.000  Msub_GND_1_o_GND_1_o_sub_229_OUT_cy<0>_12 (Msub_GND_1_o_GND_1_o_sub_229_OUT_cy<0>13)
+     MUXCY:CI->O           1   0.023   0.000  Msub_GND_1_o_GND_1_o_sub_229_OUT_cy<0>_13 (Msub_GND_1_o_GND_1_o_sub_229_OUT_cy<0>14)
+     MUXCY:CI->O           0   0.023   0.000  Msub_GND_1_o_GND_1_o_sub_229_OUT_cy<0>_14 (Msub_GND_1_o_GND_1_o_sub_229_OUT_cy<0>15)
+     XORCY:CI->O           1   0.206   0.681  Msub_GND_1_o_GND_1_o_sub_229_OUT_xor<0>_15 (GND_1_o_GND_1_o_sub_229_OUT<16>)
+     DSP48A1:B16->M0       1   3.894   0.682  Mmult_n0523 (n0523<0>)
+     LUT2:I1->O            1   0.254   0.000  ADDER_FOR_MULTADD_Madd_lut<0> (ADDER_FOR_MULTADD_Madd_lut<0>)
+     MUXCY:S->O            1   0.215   0.000  ADDER_FOR_MULTADD_Madd_cy<0> (ADDER_FOR_MULTADD_Madd_cy<0>)
+     MUXCY:CI->O           1   0.023   0.000  ADDER_FOR_MULTADD_Madd_cy<1> (ADDER_FOR_MULTADD_Madd_cy<1>)
+     MUXCY:CI->O           1   0.023   0.000  ADDER_FOR_MULTADD_Madd_cy<2> (ADDER_FOR_MULTADD_Madd_cy<2>)
+     MUXCY:CI->O           1   0.023   0.000  ADDER_FOR_MULTADD_Madd_cy<3> (ADDER_FOR_MULTADD_Madd_cy<3>)
+     MUXCY:CI->O           1   0.023   0.000  ADDER_FOR_MULTADD_Madd_cy<4> (ADDER_FOR_MULTADD_Madd_cy<4>)
+     MUXCY:CI->O           1   0.023   0.000  ADDER_FOR_MULTADD_Madd_cy<5> (ADDER_FOR_MULTADD_Madd_cy<5>)
+     MUXCY:CI->O           1   0.023   0.000  ADDER_FOR_MULTADD_Madd_cy<6> (ADDER_FOR_MULTADD_Madd_cy<6>)
+     MUXCY:CI->O           1   0.023   0.000  ADDER_FOR_MULTADD_Madd_cy<7> (ADDER_FOR_MULTADD_Madd_cy<7>)
+     MUXCY:CI->O           1   0.023   0.000  ADDER_FOR_MULTADD_Madd_cy<8> (ADDER_FOR_MULTADD_Madd_cy<8>)
+     MUXCY:CI->O           1   0.023   0.000  ADDER_FOR_MULTADD_Madd_cy<9> (ADDER_FOR_MULTADD_Madd_cy<9>)
+     MUXCY:CI->O           1   0.023   0.000  ADDER_FOR_MULTADD_Madd_cy<10> (ADDER_FOR_MULTADD_Madd_cy<10>)
+     MUXCY:CI->O           1   0.023   0.000  ADDER_FOR_MULTADD_Madd_cy<11> (ADDER_FOR_MULTADD_Madd_cy<11>)
+     MUXCY:CI->O           1   0.023   0.000  ADDER_FOR_MULTADD_Madd_cy<12> (ADDER_FOR_MULTADD_Madd_cy<12>)
+     XORCY:CI->O           2   0.206   0.726  ADDER_FOR_MULTADD_Madd_xor<13> (ADDER_FOR_MULTADD_Madd_13)
+     LUT2:I1->O            1   0.254   0.682  ADDERTREE_INTERNAL_Madd113 (ADDERTREE_INTERNAL_Madd113)
+     LUT3:I2->O            1   0.254   0.000  ADDERTREE_INTERNAL_Madd1_lut<0>14 (ADDERTREE_INTERNAL_Madd1_lut<0>14)
+     MUXCY:S->O            0   0.215   0.000  ADDERTREE_INTERNAL_Madd1_cy<0>_13 (ADDERTREE_INTERNAL_Madd1_cy<0>14)
+     XORCY:CI->O           1   0.206   0.682  ADDERTREE_INTERNAL_Madd1_xor<0>_14 (ADDERTREE_INTERNAL_Madd_151)
+     LUT6:I5->O            1   0.254   0.000  Mmux_pmin_addr[15]_GND_1_o_mux_292_OUT74 (pmin_addr[15]_GND_1_o_mux_292_OUT<15>)
+     FDE:D                     0.074          pmin_addr_15
+    ----------------------------------------
+    Total                     12.904ns (7.857ns logic, 5.047ns route)
+                                       (60.9% logic, 39.1% route)
+
+=========================================================================
+Timing constraint: Default period analysis for Clock 'counter_vga'
+  Clock period: 2.216ns (frequency: 451.264MHz)
+  Total number of paths / destination ports: 1 / 1
+-------------------------------------------------------------------------
+Delay:               2.216ns (Levels of Logic = 1)
+  Source:            clk_vga (FF)
+  Destination:       clk_vga (FF)
+  Source Clock:      counter_vga rising
+  Destination Clock: counter_vga rising
+
+  Data Path: clk_vga to clk_vga
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     FD:C->Q               1   0.525   0.681  clk_vga (clk_vga)
+     INV:I->O              1   0.255   0.681  clk_vga_INV_13_o1_INV_0 (clk_vga_INV_13_o)
+     FD:D                      0.074          clk_vga
+    ----------------------------------------
+    Total                      2.216ns (0.854ns logic, 1.362ns route)
+                                       (38.5% logic, 61.5% route)
+
+=========================================================================
+Timing constraint: Default period analysis for Clock 'clk_vga'
+  Clock period: 12.428ns (frequency: 80.463MHz)
+  Total number of paths / destination ports: 210820 / 99
+-------------------------------------------------------------------------
+Delay:               12.428ns (Levels of Logic = 21)
+  Source:            vgaY_2 (FF)
+  Destination:       stamp_menu_addr_9 (FF)
+  Source Clock:      clk_vga rising
+  Destination Clock: clk_vga rising
+
+  Data Path: vgaY_2 to stamp_menu_addr_9
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     FDE:C->Q             18   0.525   1.463  vgaY_2 (vgaY_2)
+     LUT6:I3->O           10   0.235   1.008  Msub_n0371_cy<5>11 (Msub_n0371_cy<5>)
+     LUT2:I1->O           13   0.254   1.097  Msub_n0371_xor<6>11 (n0371<6>)
+     MUXCY:DI->O           1   0.181   0.000  Msub_GND_1_o_GND_1_o_sub_51_OUT_cy<5> (Msub_GND_1_o_GND_1_o_sub_51_OUT_cy<5>)
+     MUXCY:CI->O           1   0.023   0.000  Msub_GND_1_o_GND_1_o_sub_51_OUT_cy<6> (Msub_GND_1_o_GND_1_o_sub_51_OUT_cy<6>)
+     MUXCY:CI->O           1   0.023   0.000  Msub_GND_1_o_GND_1_o_sub_51_OUT_cy<7> (Msub_GND_1_o_GND_1_o_sub_51_OUT_cy<7>)
+     MUXCY:CI->O           1   0.023   0.000  Msub_GND_1_o_GND_1_o_sub_51_OUT_cy<8> (Msub_GND_1_o_GND_1_o_sub_51_OUT_cy<8>)
+     MUXCY:CI->O           1   0.023   0.000  Msub_GND_1_o_GND_1_o_sub_51_OUT_cy<9> (Msub_GND_1_o_GND_1_o_sub_51_OUT_cy<9>)
+     MUXCY:CI->O           0   0.023   0.000  Msub_GND_1_o_GND_1_o_sub_51_OUT_cy<10> (Msub_GND_1_o_GND_1_o_sub_51_OUT_cy<10>)
+     XORCY:CI->O           6   0.206   0.875  Msub_GND_1_o_GND_1_o_sub_51_OUT_xor<11> (GND_1_o_GND_1_o_sub_51_OUT<11>)
+     DSP48A1:B11->M0       2   3.894   0.726  Mmult_n0426 (n0426<0>)
+     LUT3:I2->O            1   0.254   0.682  Madd_n0427_Madd (Madd_n0427_Madd)
+     LUT4:I3->O            1   0.254   0.000  Madd_n0427_Madd_lut<0>1 (Madd_n0427_Madd_lut<0>1)
+     MUXCY:S->O            1   0.215   0.000  Madd_n0427_Madd_cy<0>_0 (Madd_n0427_Madd_cy<0>1)
+     MUXCY:CI->O           1   0.023   0.000  Madd_n0427_Madd_cy<0>_1 (Madd_n0427_Madd_cy<0>2)
+     MUXCY:CI->O           1   0.023   0.000  Madd_n0427_Madd_cy<0>_2 (Madd_n0427_Madd_cy<0>3)
+     MUXCY:CI->O           1   0.023   0.000  Madd_n0427_Madd_cy<0>_3 (Madd_n0427_Madd_cy<0>4)
+     MUXCY:CI->O           1   0.023   0.000  Madd_n0427_Madd_cy<0>_4 (Madd_n0427_Madd_cy<0>5)
+     MUXCY:CI->O           1   0.023   0.000  Madd_n0427_Madd_cy<0>_5 (Madd_n0427_Madd_cy<0>6)
+     MUXCY:CI->O           1   0.023   0.000  Madd_n0427_Madd_cy<0>_6 (Madd_n0427_Madd_cy<0>7)
+     MUXCY:CI->O           0   0.023   0.000  Madd_n0427_Madd_cy<0>_7 (Madd_n0427_Madd_cy<0>8)
+     XORCY:CI->O           1   0.206   0.000  Madd_n0427_Madd_xor<0>_8 (n0427<9>)
+     FDE:D                     0.074          stamp_menu_addr_9
+    ----------------------------------------
+    Total                     12.428ns (6.577ns logic, 5.851ns route)
+                                       (52.9% logic, 47.1% route)
+
+=========================================================================
+Timing constraint: Default period analysis for Clock 'comboLR'
+  Clock period: 7.874ns (frequency: 127.000MHz)
+  Total number of paths / destination ports: 3109 / 65
+-------------------------------------------------------------------------
+Delay:               7.874ns (Levels of Logic = 5)
+  Source:            current_stamp_11 (FF)
+  Destination:       current_stamp_1 (FF)
+  Source Clock:      comboLR rising
+  Destination Clock: comboLR rising
+
+  Data Path: current_stamp_11 to current_stamp_1
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     FDRE:C->Q             4   0.525   1.259  current_stamp_11 (current_stamp_11)
+     LUT6:I0->O            1   0.254   1.112  _n078422 (_n078422)
+     LUT5:I0->O            2   0.254   0.726  _n078426 (_n07842)
+     LUT4:I3->O           32   0.254   1.796  current_stamp[31]_GND_1_o_equal_171_o<31>1 (current_stamp[31]_GND_1_o_equal_171_o)
+     LUT5:I1->O            1   0.254   1.112  Mmux_current_stamp[31]_current_stamp[31]_mux_191_OUT121 (current_stamp[31]_current_stamp[31]_mux_191_OUT<1>)
+     LUT6:I1->O            1   0.254   0.000  current_stamp_1_glue_set (current_stamp_1_glue_set)
+     FD:D                      0.074          current_stamp_1
+    ----------------------------------------
+    Total                      7.874ns (1.869ns logic, 6.005ns route)
+                                       (23.7% logic, 76.3% route)
+
+=========================================================================
+Timing constraint: Default period analysis for Clock 'comboUD'
+  Clock period: 3.263ns (frequency: 306.444MHz)
+  Total number of paths / destination ports: 4 / 2
+-------------------------------------------------------------------------
+Delay:               3.263ns (Levels of Logic = 1)
+  Source:            current_tool_FSM_FFd2 (FF)
+  Destination:       current_tool_FSM_FFd1 (FF)
+  Source Clock:      comboUD rising
+  Destination Clock: comboUD rising
+
+  Data Path: current_tool_FSM_FFd2 to current_tool_FSM_FFd1
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     FD:C->Q              99   0.525   2.429  current_tool_FSM_FFd2 (current_tool_FSM_FFd2)
+     LUT4:I1->O            1   0.235   0.000  current_tool_FSM_FFd1-In1 (current_tool_FSM_FFd1-In)
+     FD:D                      0.074          current_tool_FSM_FFd1
+    ----------------------------------------
+    Total                      3.263ns (0.834ns logic, 2.429ns route)
+                                       (25.6% logic, 74.4% route)
+
+=========================================================================
+Timing constraint: Default period analysis for Clock 'clk_cursor'
+  Clock period: 7.415ns (frequency: 134.857MHz)
+  Total number of paths / destination ports: 3050 / 40
+-------------------------------------------------------------------------
+Delay:               7.415ns (Levels of Logic = 14)
+  Source:            cursorY_6 (FF)
+  Destination:       cursorY_9 (FF)
+  Source Clock:      clk_cursor rising
+  Destination Clock: clk_cursor rising
+
+  Data Path: cursorY_6 to cursorY_9
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     FDE:C->Q             24   0.525   1.488  cursorY_6 (cursorY_6)
+     LUT2:I0->O            1   0.250   0.682  PWR_1_o_GND_1_o_AND_1149_o2_SW0 (N46)
+     LUT6:I5->O           11   0.254   1.039  PWR_1_o_GND_1_o_AND_1149_o2 (PWR_1_o_GND_1_o_AND_1149_o2)
+     LUT6:I5->O           12   0.254   1.499  PWR_1_o_GND_1_o_AND_1150_o3 (PWR_1_o_GND_1_o_AND_1150_o)
+     LUT5:I0->O            1   0.254   0.681  Mmux_cursorY[9]_cursorY[9]_mux_153_OUT_rs_AS_inv2 (Mmux_cursorY[9]_cursorY[9]_mux_153_OUT_rs_AS_inv)
+     MUXCY:CI->O           1   0.023   0.000  Maccum_cursorY_cy<0> (Maccum_cursorY_cy<0>)
+     MUXCY:CI->O           1   0.023   0.000  Maccum_cursorY_cy<1> (Maccum_cursorY_cy<1>)
+     MUXCY:CI->O           1   0.023   0.000  Maccum_cursorY_cy<2> (Maccum_cursorY_cy<2>)
+     MUXCY:CI->O           1   0.023   0.000  Maccum_cursorY_cy<3> (Maccum_cursorY_cy<3>)
+     MUXCY:CI->O           1   0.023   0.000  Maccum_cursorY_cy<4> (Maccum_cursorY_cy<4>)
+     MUXCY:CI->O           1   0.023   0.000  Maccum_cursorY_cy<5> (Maccum_cursorY_cy<5>)
+     MUXCY:CI->O           1   0.023   0.000  Maccum_cursorY_cy<6> (Maccum_cursorY_cy<6>)
+     MUXCY:CI->O           1   0.023   0.000  Maccum_cursorY_cy<7> (Maccum_cursorY_cy<7>)
+     MUXCY:CI->O           0   0.023   0.000  Maccum_cursorY_cy<8> (Maccum_cursorY_cy<8>)
+     XORCY:CI->O           1   0.206   0.000  Maccum_cursorY_xor<9> (Result<9>7)
+     FDE:D                     0.074          cursorY_9
+    ----------------------------------------
+    Total                      7.415ns (2.026ns logic, 5.389ns route)
+                                       (27.3% logic, 72.7% route)
+
+=========================================================================
+Timing constraint: Default period analysis for Clock 'joy/clk_joy'
+  Clock period: 6.148ns (frequency: 162.655MHz)
+  Total number of paths / destination ports: 415 / 168
+-------------------------------------------------------------------------
+Delay:               3.074ns (Levels of Logic = 1)
+  Source:            joy/ji/pState_1 (FF)
+  Destination:       joy/ji/rSR_7 (FF)
+  Source Clock:      joy/clk_joy falling
+  Destination Clock: joy/clk_joy rising
+
+  Data Path: joy/ji/pState_1 to joy/ji/rSR_7
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     FD_1:C->Q             5   0.525   1.069  joy/ji/pState_1 (joy/ji/pState_1)
+     LUT3:I0->O            8   0.235   0.943  joy/ji/GND_17_o_CE_AND_2182_o1 (joy/ji/GND_17_o_CE_AND_2182_o)
+     FDE:CE                    0.302          joy/ji/rSR_0
+    ----------------------------------------
+    Total                      3.074ns (1.062ns logic, 2.012ns route)
+                                       (34.5% logic, 65.5% route)
+
+=========================================================================
+Timing constraint: Default OFFSET IN BEFORE for Clock 'clk'
+  Total number of paths / destination ports: 42 / 42
+-------------------------------------------------------------------------
+Offset:              4.169ns (Levels of Logic = 2)
+  Source:            btnS (PAD)
+  Destination:       reset_counter_0 (FF)
+  Destination Clock: clk rising
+
+  Data Path: btnS to reset_counter_0
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     IBUF:I->O             3   1.328   0.766  btnS_IBUF (btnS_IBUF)
+     LUT3:I2->O           32   0.254   1.519  _n0831_inv1 (_n0831_inv)
+     FDE:CE                    0.302          reset_counter_0
+    ----------------------------------------
+    Total                      4.169ns (1.884ns logic, 2.285ns route)
+                                       (45.2% logic, 54.8% route)
+
+=========================================================================
+Timing constraint: Default OFFSET IN BEFORE for Clock 'clk_debounce'
+  Total number of paths / destination ports: 4 / 4
+-------------------------------------------------------------------------
+Offset:              2.083ns (Levels of Logic = 1)
+  Source:            btnU (PAD)
+  Destination:       btnUdb (FF)
+  Destination Clock: clk_debounce rising
+
+  Data Path: btnU to btnUdb
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     IBUF:I->O             1   1.328   0.681  btnU_IBUF (btnU_IBUF)
+     FD:D                      0.074          btnUdb
+    ----------------------------------------
+    Total                      2.083ns (1.402ns logic, 0.681ns route)
+                                       (67.3% logic, 32.7% route)
+
+=========================================================================
+Timing constraint: Default OFFSET IN BEFORE for Clock 'clk_vga'
+  Total number of paths / destination ports: 14 / 8
+-------------------------------------------------------------------------
+Offset:              3.788ns (Levels of Logic = 3)
+  Source:            sw<5> (PAD)
+  Destination:       vgaRed_0 (FF)
+  Destination Clock: clk_vga rising
+
+  Data Path: sw<5> to vgaRed_0
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     IBUF:I->O             3   1.328   1.196  sw_5_IBUF (sw_5_IBUF)
+     LUT6:I1->O            1   0.254   0.682  Mmux_sw[1]_pmop_pixel[1]_mux_99_OUT28_SW0 (N74)
+     LUT5:I4->O            1   0.254   0.000  Mmux_sw[1]_pmop_pixel[1]_mux_99_OUT28 (sw[7]_pmop_pixel[7]_mux_97_OUT<0>)
+     FDR:D                     0.074          vgaRed_0
+    ----------------------------------------
+    Total                      3.788ns (1.910ns logic, 1.878ns route)
+                                       (50.4% logic, 49.6% route)
+
+=========================================================================
+Timing constraint: Default OFFSET IN BEFORE for Clock 'joy/clk_joy'
+  Total number of paths / destination ports: 1 / 1
+-------------------------------------------------------------------------
+Offset:              2.083ns (Levels of Logic = 1)
+  Source:            MISO (PAD)
+  Destination:       joy/ji/rSR_0 (FF)
+  Destination Clock: joy/clk_joy rising
+
+  Data Path: MISO to joy/ji/rSR_0
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     IBUF:I->O             1   1.328   0.681  MISO_IBUF (MISO_IBUF)
+     FDE:D                     0.074          joy/ji/rSR_0
+    ----------------------------------------
+    Total                      2.083ns (1.402ns logic, 0.681ns route)
+                                       (67.3% logic, 32.7% route)
+
+=========================================================================
+Timing constraint: Default OFFSET OUT AFTER for Clock 'clk_vga'
+  Total number of paths / destination ports: 10 / 10
+-------------------------------------------------------------------------
+Offset:              4.118ns (Levels of Logic = 1)
+  Source:            vgaRed_2 (FF)
+  Destination:       vgaRed<2> (PAD)
+  Source Clock:      clk_vga rising
+
+  Data Path: vgaRed_2 to vgaRed<2>
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     FDR:C->Q              1   0.525   0.681  vgaRed_2 (vgaRed_2)
+     OBUF:I->O                 2.912          vgaRed_2_OBUF (vgaRed<2>)
+    ----------------------------------------
+    Total                      4.118ns (3.437ns logic, 0.681ns route)
+                                       (83.5% logic, 16.5% route)
+
+=========================================================================
+Timing constraint: Default OFFSET OUT AFTER for Clock 'joy/clk_joy'
+  Total number of paths / destination ports: 2 / 2
+-------------------------------------------------------------------------
+Offset:              5.202ns (Levels of Logic = 2)
+  Source:            joy/ji/CE (FF)
+  Destination:       SCLK (PAD)
+  Source Clock:      joy/clk_joy falling
+
+  Data Path: joy/ji/CE to SCLK
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     FDR_1:C->Q            2   0.525   0.834  joy/ji/CE (joy/ji/CE)
+     LUT2:I0->O            1   0.250   0.681  joy/ji/Mmux_SCLK11 (SCLK_OBUF)
+     OBUF:I->O                 2.912          SCLK_OBUF (SCLK)
+    ----------------------------------------
+    Total                      5.202ns (3.687ns logic, 1.515ns route)
+                                       (70.9% logic, 29.1% route)
+
+=========================================================================
+Timing constraint: Default OFFSET OUT AFTER for Clock 'clk'
+  Total number of paths / destination ports: 1 / 1
+-------------------------------------------------------------------------
+Offset:              5.098ns (Levels of Logic = 2)
+  Source:            joy/clk_joy (FF)
+  Destination:       SCLK (PAD)
+  Source Clock:      clk rising
+
+  Data Path: joy/clk_joy to SCLK
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     FDE:C->Q              2   0.525   0.726  joy/clk_joy (joy/clk_joy)
+     LUT2:I1->O            1   0.254   0.681  joy/ji/Mmux_SCLK11 (SCLK_OBUF)
+     OBUF:I->O                 2.912          SCLK_OBUF (SCLK)
+    ----------------------------------------
+    Total                      5.098ns (3.691ns logic, 1.407ns route)
+                                       (72.4% logic, 27.6% route)
+
+=========================================================================
+
+Cross Clock Domains Report:
+--------------------------
+
+Clock to Setup on destination clock clk
+---------------+---------+---------+---------+---------+
+               | Src:Rise| Src:Fall| Src:Rise| Src:Fall|
+Source Clock   |Dest:Rise|Dest:Rise|Dest:Fall|Dest:Fall|
+---------------+---------+---------+---------+---------+
+clk            |   12.904|         |         |         |
+clk_cursor     |   13.732|         |         |         |
+clk_vga        |    4.495|         |         |         |
+comboLR        |   14.597|         |         |         |
+comboUD        |    7.011|         |         |         |
+joy/clk_joy    |         |    2.548|         |         |
+---------------+---------+---------+---------+---------+
+
+Clock to Setup on destination clock clk_cursor
+---------------+---------+---------+---------+---------+
+               | Src:Rise| Src:Fall| Src:Rise| Src:Fall|
+Source Clock   |Dest:Rise|Dest:Rise|Dest:Fall|Dest:Fall|
+---------------+---------+---------+---------+---------+
+clk_cursor     |    7.415|         |         |         |
+joy/clk_joy    |         |    7.377|         |         |
+---------------+---------+---------+---------+---------+
+
+Clock to Setup on destination clock clk_vga
+---------------+---------+---------+---------+---------+
+               | Src:Rise| Src:Fall| Src:Rise| Src:Fall|
+Source Clock   |Dest:Rise|Dest:Rise|Dest:Fall|Dest:Fall|
+---------------+---------+---------+---------+---------+
+clk            |   10.088|         |         |         |
+clk_cursor     |   12.976|         |         |         |
+clk_vga        |   12.428|         |         |         |
+comboLR        |   14.203|         |         |         |
+comboUD        |    6.943|         |         |         |
+---------------+---------+---------+---------+---------+
+
+Clock to Setup on destination clock comboLR
+---------------+---------+---------+---------+---------+
+               | Src:Rise| Src:Fall| Src:Rise| Src:Fall|
+Source Clock   |Dest:Rise|Dest:Rise|Dest:Fall|Dest:Fall|
+---------------+---------+---------+---------+---------+
+clk_debounce   |    4.586|         |         |         |
+comboLR        |    7.874|         |         |         |
+comboUD        |    5.234|         |         |         |
+---------------+---------+---------+---------+---------+
+
+Clock to Setup on destination clock comboUD
+---------------+---------+---------+---------+---------+
+               | Src:Rise| Src:Fall| Src:Rise| Src:Fall|
+Source Clock   |Dest:Rise|Dest:Rise|Dest:Fall|Dest:Fall|
+---------------+---------+---------+---------+---------+
+clk_debounce   |    1.895|         |         |         |
+comboUD        |    3.263|         |         |         |
+---------------+---------+---------+---------+---------+
+
+Clock to Setup on destination clock counter_vga
+---------------+---------+---------+---------+---------+
+               | Src:Rise| Src:Fall| Src:Rise| Src:Fall|
+Source Clock   |Dest:Rise|Dest:Rise|Dest:Fall|Dest:Fall|
+---------------+---------+---------+---------+---------+
+counter_vga    |    2.216|         |         |         |
+---------------+---------+---------+---------+---------+
+
+Clock to Setup on destination clock joy/clk_joy
+---------------+---------+---------+---------+---------+
+               | Src:Rise| Src:Fall| Src:Rise| Src:Fall|
+Source Clock   |Dest:Rise|Dest:Rise|Dest:Fall|Dest:Fall|
+---------------+---------+---------+---------+---------+
+clk            |         |         |    1.619|         |
+joy/clk_joy    |    1.324|    3.074|    4.538|         |
+---------------+---------+---------+---------+---------+
+
+=========================================================================
+
+
+Total REAL time to Xst completion: 22.00 secs
+Total CPU time to Xst completion: 21.63 secs
+ 
+--> 
+
+Total memory usage is 270940 kilobytes
+
+Number of errors   :    0 (   0 filtered)
+Number of warnings :  154 (   0 filtered)
+Number of infos    :    5 (   0 filtered)
+

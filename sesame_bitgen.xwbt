@@ -1,0 +1,8 @@
+INTSTYLE=ise
+INFILE=C:\Users\152\Documents\Fay_Daniel_152A\FDPaint\sesame.ncd
+OUTFILE=C:\Users\152\Documents\Fay_Daniel_152A\FDPaint\sesame.bit
+FAMILY=Spartan6
+PART=xc6slx16-2csg324
+WORKINGDIR=C:\Users\152\Documents\Fay_Daniel_152A\FDPaint
+LICENSE=ISE
+USER_INFO=203015155_203016297_210565169_465
